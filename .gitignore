@@ -85,12 +85,17 @@ bin/theano-cache
 bin/theano-nose
 bin/theano-test
 bin/wheel
+bin/pbr
+bin/virtualenv-clone
+bin/virtualenvwrapper.sh
+bin/virtualenvwrapper_lazy.sh
 src/package*
 share
 include
 
-
 # Swap files
 *.swp
+
+
 
 
