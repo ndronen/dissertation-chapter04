@@ -244,8 +244,6 @@ def fit(config):
         train_idx = rng.permutation(len(X_train))
         X_train = X_train[train_idx]
         y_train = y_train[train_idx]
-        X_train = X_train[1:200000]
-        y_train = y_train[1:200000]
 
         X_validation = validation_data.hdf5_file[config.data_name[0]].value
         y_validation = train_data.hdf5_file[config.target_name].value
@@ -255,9 +253,6 @@ def fit(config):
         X_validation = X_validation[validation_idx]
         y_validation = y_validation[validation_idx]
         y_validation_one_hot = y_validation_one_hot[validation_idx]
-        X_validation = X_validation[1:200000]
-        y_validation = y_validation[1:200000]
-        y_validation_one_hot = y_validation_one_hot[1:200000]
 
         callbacks=build_callbacks(model, config, 
                 X_validation, y_validation)
