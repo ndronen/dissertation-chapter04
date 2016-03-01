@@ -1,3 +1,4 @@
+virutalenv
 Cython==0.23.4
 h5py==2.5.0
 ipython==4.1.1
@@ -21,5 +22,6 @@ wheel==0.29.0
 scikit-learn==0.17.1
 git+git://github.com/Theano/Theano.git#egg=theano
 git+git://github.com/fchollet/keras.git@763a2a953638ac1a1374c11d65716938060553c0#egg=keras
+pyenchant
 #Modeling-package==0.0.0, /export/home/ndronen/proj/modeling
 #Spelling-package==0.0.0, /export/home/ndronen/proj/spelling
