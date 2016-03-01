@@ -1,9 +1,23 @@
 {
+    "description": "convolutional spelling correction model that predicts the probability that a proposed correction is the true correction given the spelling and and the correction",
+    "mode": "transient",
+    "n_classes": 2,
+    "n_epochs": 100,
+    "save_best_only": false,
+    "confusion_matrix": true,
+    "classification_report": true,
+    "checkpoint_name": "model.h5",
+    "patience": 1,
+    "batch_size": 128,
+    "target_name": "binary_target",
+    "data_name": ["marked_chars"],
+
     "n_word_dims": 0,
     "n_filters": 0,
     "filter_width": 0,
     "n_fully_connected": 0,
     "n_residual_blocks": 0,
+    "n_embeddings": 255,
 
     "train_embeddings": true,
     "embedding_init": "uniform",
@@ -16,9 +30,6 @@
     "dropout_embedding_p": 0.0,
     "dropout_conv_p": 0.0,
     "dropout_fc_p": 0.0,
-
-    "patience": 1,
-    "batch_size": 128,
 
     "embedding_max_norm": 1000,
     "filter_max_norm": 1000,
