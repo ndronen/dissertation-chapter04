@@ -1,30 +1,20 @@
 #!/bin/bash
 
 model_dir=models/real_errors/
-data_dir=data/
+if [ $# -eq 0 ]
+then
+    echo "usage: train.py --mode MODE KEY=VALUE KEY=VALUE ... KEY=VALUE" >&2
+    echo "       MODE can be 'transient', 'persistent', or 'persistent-background'" >&2
+    echo "       KEY=VALUE pairs are model arguments that may also be set in model.json" >&2
+    exit 1
+fi
 
-n_embed_dims=10
-n_filters=3000
-filter_width=6
-n_fully_connected=2
-n_residual_blocks=2
-n_hidden=1000
+mode=$1
+shift
 
-#corpus="non-word-error-detection-experiment-04-generated-negative-examples.h5"
-
-train.py $model_dir \
-    $data_dir/train.h5 \
-    $data_dir/validation.h5 \
-    marked_chars \
-    --target-name binary_target \
-    --n-embeddings 255 \
-    --model-cfg n_embed_dims=$n_embed_dims n_filters=$n_filters filter_width=$filter_width n_fully_connected=$n_fully_connected n_residual_blocks=$n_residual_blocks n_hidden=$n_hidden patience=10 \
-    --confusion-matrix \
-    --classification-report \
-    --class-weight-auto \
-    --class-weight-exponent 2 \
-    --early-stopping-metric val_f1 \
-    --checkpoint-metric val_f1 \
-    --save-all-checkpoints \
-    --verbose \
-    --log
+if [ $# -eq 0 ]
+then
+    bin/train.py $model_dir --mode $mode
+else
+    bin/train.py $model_dir --mode $mode --model-cfg "$@"
+fi
