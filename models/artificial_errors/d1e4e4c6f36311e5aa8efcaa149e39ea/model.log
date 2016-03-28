@@ -1,0 +1,2311 @@
+03-26 09:02 root         WARNING  Using Theano backend.
+
+03-26 09:02 root         WARNING  Using gpu device 0: GeForce GTX TITAN Black (CNMeM is disabled, CuDNN not available)
+03-26 09:03 root         INFO     model has 3098552 parameters
+03-26 09:03 root         INFO     Train on 478988 samples, validate on 478988 samples
+03-26 09:03 root         INFO     Epoch 1/100
+03-26 09:10 root         INFO     
+
+03-26 09:10 root         INFO     05: min norm 1.1946 max norm 4.9934
+03-26 09:10 root         INFO     07: min norm 1.5248 max norm 1.5476
+03-26 09:10 root         INFO     
+
+03-26 09:10 root         INFO     Epoch 00000: val_loss improved from inf to 1.26863, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 09:12 root         INFO     
+Confusion matrix
+03-26 09:12 root         INFO     [[135742 223473]
+ [   702 119071]]
+03-26 09:12 root         INFO     
+Classification report
+03-26 09:12 root         INFO                  precision    recall  f1-score   support
+
+          0       0.99      0.38      0.55    359215
+          1       0.35      0.99      0.52    119773
+
+avg / total       0.83      0.53      0.54    478988
+
+03-26 09:12 root         INFO     539s - loss: 0.5467 - acc: 0.4728 - val_loss: 1.2686 - val_acc: 0.5320
+
+03-26 09:12 root         INFO     Epoch 2/100
+03-26 09:19 root         INFO     
+
+03-26 09:19 root         INFO     05: min norm 1.2099 max norm 7.2007
+03-26 09:19 root         INFO     07: min norm 1.8439 max norm 1.8971
+03-26 09:19 root         INFO     
+
+03-26 09:19 root         INFO     Epoch 00001: val_loss improved from 1.26863 to 1.05812, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 09:20 root         INFO     
+Confusion matrix
+03-26 09:20 root         INFO     [[160701 198514]
+ [   429 119344]]
+03-26 09:20 root         INFO     
+Classification report
+03-26 09:20 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.45      0.62    359215
+          1       0.38      1.00      0.55    119773
+
+avg / total       0.84      0.58      0.60    478988
+
+03-26 09:20 root         INFO     533s - loss: 0.4537 - acc: 0.5841 - val_loss: 1.0581 - val_acc: 0.5847
+
+03-26 09:20 root         INFO     Epoch 3/100
+03-26 09:28 root         INFO     
+
+03-26 09:28 root         INFO     05: min norm 1.2095 max norm 10.1967
+03-26 09:28 root         INFO     07: min norm 2.2092 max norm 2.2925
+03-26 09:28 root         INFO     
+
+03-26 09:28 root         INFO     Epoch 00002: val_loss improved from 1.05812 to 0.94844, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 09:29 root         INFO     
+Confusion matrix
+03-26 09:29 root         INFO     [[179427 179788]
+ [   492 119281]]
+03-26 09:29 root         INFO     
+Classification report
+03-26 09:29 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.50      0.67    359215
+          1       0.40      1.00      0.57    119773
+
+avg / total       0.85      0.62      0.64    478988
+
+03-26 09:29 root         INFO     534s - loss: 0.4233 - acc: 0.6141 - val_loss: 0.9484 - val_acc: 0.6236
+
+03-26 09:29 root         INFO     Epoch 4/100
+03-26 09:37 root         INFO     
+
+03-26 09:37 root         INFO     05: min norm 1.2106 max norm 12.0418
+03-26 09:37 root         INFO     07: min norm 2.5660 max norm 2.6637
+03-26 09:37 root         INFO     
+
+03-26 09:37 root         INFO     Epoch 00003: val_loss improved from 0.94844 to 0.87470, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 09:38 root         INFO     
+Confusion matrix
+03-26 09:38 root         INFO     [[198067 161148]
+ [   749 119024]]
+03-26 09:38 root         INFO     
+Classification report
+03-26 09:38 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.55      0.71    359215
+          1       0.42      0.99      0.60    119773
+
+avg / total       0.85      0.66      0.68    478988
+
+03-26 09:38 root         INFO     532s - loss: 0.4032 - acc: 0.6337 - val_loss: 0.8747 - val_acc: 0.6620
+
+03-26 09:38 root         INFO     Epoch 5/100
+03-26 09:46 root         INFO     
+
+03-26 09:46 root         INFO     05: min norm 1.2116 max norm 13.6185
+03-26 09:46 root         INFO     07: min norm 2.9534 max norm 3.0540
+03-26 09:46 root         INFO     
+
+03-26 09:46 root         INFO     Epoch 00004: val_loss did not improve
+03-26 09:47 root         INFO     
+Confusion matrix
+03-26 09:47 root         INFO     [[196618 162597]
+ [   391 119382]]
+03-26 09:47 root         INFO     
+Classification report
+03-26 09:47 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.55      0.71    359215
+          1       0.42      1.00      0.59    119773
+
+avg / total       0.85      0.66      0.68    478988
+
+03-26 09:47 root         INFO     530s - loss: 0.3872 - acc: 0.6509 - val_loss: 0.8751 - val_acc: 0.6597
+
+03-26 09:47 root         INFO     Epoch 6/100
+03-26 09:54 root         INFO     
+
+03-26 09:54 root         INFO     05: min norm 1.2153 max norm 15.1377
+03-26 09:54 root         INFO     07: min norm 3.4591 max norm 3.5501
+03-26 09:54 root         INFO     
+
+03-26 09:54 root         INFO     Epoch 00005: val_loss improved from 0.87470 to 0.78483, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 09:56 root         INFO     
+Confusion matrix
+03-26 09:56 root         INFO     [[212508 146707]
+ [   814 118959]]
+03-26 09:56 root         INFO     
+Classification report
+03-26 09:56 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.59      0.74    359215
+          1       0.45      0.99      0.62    119773
+
+avg / total       0.86      0.69      0.71    478988
+
+03-26 09:56 root         INFO     535s - loss: 0.3728 - acc: 0.6660 - val_loss: 0.7848 - val_acc: 0.6920
+
+03-26 09:56 root         INFO     Epoch 7/100
+03-26 10:03 root         INFO     
+
+03-26 10:03 root         INFO     05: min norm 1.2161 max norm 16.6319
+03-26 10:03 root         INFO     07: min norm 3.9538 max norm 4.0459
+03-26 10:03 root         INFO     
+
+03-26 10:03 root         INFO     Epoch 00006: val_loss did not improve
+03-26 10:05 root         INFO     
+Confusion matrix
+03-26 10:05 root         INFO     [[204660 154555]
+ [   195 119578]]
+03-26 10:05 root         INFO     
+Classification report
+03-26 10:05 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.57      0.73    359215
+          1       0.44      1.00      0.61    119773
+
+avg / total       0.86      0.68      0.70    478988
+
+03-26 10:05 root         INFO     531s - loss: 0.3595 - acc: 0.6797 - val_loss: 0.8780 - val_acc: 0.6769
+
+03-26 10:05 root         INFO     Epoch 8/100
+03-26 10:12 root         INFO     
+
+03-26 10:12 root         INFO     05: min norm 1.2177 max norm 17.8430
+03-26 10:12 root         INFO     07: min norm 4.5379 max norm 4.6205
+03-26 10:12 root         INFO     
+
+03-26 10:12 root         INFO     Epoch 00007: val_loss did not improve
+03-26 10:14 root         INFO     
+Confusion matrix
+03-26 10:14 root         INFO     [[204014 155201]
+ [    93 119680]]
+03-26 10:14 root         INFO     
+Classification report
+03-26 10:14 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.57      0.72    359215
+          1       0.44      1.00      0.61    119773
+
+avg / total       0.86      0.68      0.69    478988
+
+03-26 10:14 root         INFO     533s - loss: 0.3464 - acc: 0.6928 - val_loss: 0.9470 - val_acc: 0.6758
+
+03-26 10:14 root         INFO     Epoch 9/100
+03-26 10:21 root         INFO     
+
+03-26 10:21 root         INFO     05: min norm 1.2172 max norm 19.0775
+03-26 10:21 root         INFO     07: min norm 5.1735 max norm 5.2512
+03-26 10:21 root         INFO     
+
+03-26 10:21 root         INFO     Epoch 00008: val_loss did not improve
+03-26 10:23 root         INFO     
+Confusion matrix
+03-26 10:23 root         INFO     [[222986 136229]
+ [   323 119450]]
+03-26 10:23 root         INFO     
+Classification report
+03-26 10:23 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.62      0.77    359215
+          1       0.47      1.00      0.64    119773
+
+avg / total       0.87      0.71      0.73    478988
+
+03-26 10:23 root         INFO     531s - loss: 0.3327 - acc: 0.7071 - val_loss: 0.7986 - val_acc: 0.7149
+
+03-26 10:23 root         INFO     Epoch 10/100
+03-26 10:30 root         INFO     
+
+03-26 10:30 root         INFO     05: min norm 1.2167 max norm 20.2592
+03-26 10:30 root         INFO     07: min norm 5.9241 max norm 5.9972
+03-26 10:30 root         INFO     
+
+03-26 10:30 root         INFO     Epoch 00009: val_loss improved from 0.78483 to 0.74306, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 10:31 root         INFO     
+Confusion matrix
+03-26 10:31 root         INFO     [[231419 127796]
+ [   246 119527]]
+03-26 10:31 root         INFO     
+Classification report
+03-26 10:31 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.64      0.78    359215
+          1       0.48      1.00      0.65    119773
+
+avg / total       0.87      0.73      0.75    478988
+
+03-26 10:31 root         INFO     533s - loss: 0.3193 - acc: 0.7201 - val_loss: 0.7431 - val_acc: 0.7327
+
+03-26 10:31 root         INFO     Epoch 11/100
+03-26 10:39 root         INFO     
+
+03-26 10:39 root         INFO     05: min norm 1.2162 max norm 21.3447
+03-26 10:39 root         INFO     07: min norm 6.6735 max norm 6.7363
+03-26 10:39 root         INFO     
+
+03-26 10:39 root         INFO     Epoch 00010: val_loss improved from 0.74306 to 0.71224, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 10:41 root         INFO     
+Confusion matrix
+03-26 10:41 root         INFO     [[235867 123348]
+ [   174 119599]]
+03-26 10:41 root         INFO     
+Classification report
+03-26 10:41 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.66      0.79    359215
+          1       0.49      1.00      0.66    119773
+
+avg / total       0.87      0.74      0.76    478988
+
+03-26 10:41 root         INFO     549s - loss: 0.3064 - acc: 0.7337 - val_loss: 0.7122 - val_acc: 0.7421
+
+03-26 10:41 root         INFO     Epoch 12/100
+03-26 10:48 root         INFO     
+
+03-26 10:48 root         INFO     05: min norm 1.2157 max norm 22.7478
+03-26 10:48 root         INFO     07: min norm 7.4745 max norm 7.5347
+03-26 10:48 root         INFO     
+
+03-26 10:48 root         INFO     Epoch 00011: val_loss did not improve
+03-26 10:50 root         INFO     
+Confusion matrix
+03-26 10:50 root         INFO     [[236647 122568]
+ [   134 119639]]
+03-26 10:50 root         INFO     
+Classification report
+03-26 10:50 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.66      0.79    359215
+          1       0.49      1.00      0.66    119773
+
+avg / total       0.87      0.74      0.76    478988
+
+03-26 10:50 root         INFO     536s - loss: 0.2929 - acc: 0.7471 - val_loss: 0.7161 - val_acc: 0.7438
+
+03-26 10:50 root         INFO     Epoch 13/100
+03-26 10:57 root         INFO     
+
+03-26 10:57 root         INFO     05: min norm 1.2151 max norm 23.9691
+03-26 10:57 root         INFO     07: min norm 8.2984 max norm 8.3500
+03-26 10:57 root         INFO     
+
+03-26 10:57 root         INFO     Epoch 00012: val_loss improved from 0.71224 to 0.65050, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 11:00 root         INFO     
+Confusion matrix
+03-26 11:00 root         INFO     [[248319 110896]
+ [   223 119550]]
+03-26 11:00 root         INFO     
+Classification report
+03-26 11:00 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.69      0.82    359215
+          1       0.52      1.00      0.68    119773
+
+avg / total       0.88      0.77      0.78    478988
+
+03-26 11:00 root         INFO     597s - loss: 0.2796 - acc: 0.7605 - val_loss: 0.6505 - val_acc: 0.7680
+
+03-26 11:00 root         INFO     Epoch 14/100
+03-26 11:11 root         INFO     
+
+03-26 11:11 root         INFO     05: min norm 1.2181 max norm 25.1898
+03-26 11:11 root         INFO     07: min norm 9.1445 max norm 9.1957
+03-26 11:11 root         INFO     
+
+03-26 11:11 root         INFO     Epoch 00013: val_loss improved from 0.65050 to 0.63387, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 11:14 root         INFO     
+Confusion matrix
+03-26 11:14 root         INFO     [[248723 110492]
+ [    73 119700]]
+03-26 11:14 root         INFO     
+Classification report
+03-26 11:14 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.69      0.82    359215
+          1       0.52      1.00      0.68    119773
+
+avg / total       0.88      0.77      0.78    478988
+
+03-26 11:14 root         INFO     851s - loss: 0.2680 - acc: 0.7715 - val_loss: 0.6339 - val_acc: 0.7692
+
+03-26 11:14 root         INFO     Epoch 15/100
+03-26 11:25 root         INFO     
+
+03-26 11:25 root         INFO     05: min norm 1.2176 max norm 26.2710
+03-26 11:25 root         INFO     07: min norm 10.0229 max norm 10.0677
+03-26 11:25 root         INFO     
+
+03-26 11:25 root         INFO     Epoch 00014: val_loss improved from 0.63387 to 0.51175, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 11:27 root         INFO     
+Confusion matrix
+03-26 11:27 root         INFO     [[269933  89282]
+ [   498 119275]]
+03-26 11:27 root         INFO     
+Classification report
+03-26 11:27 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.75      0.86    359215
+          1       0.57      1.00      0.73    119773
+
+avg / total       0.89      0.81      0.82    478988
+
+03-26 11:27 root         INFO     814s - loss: 0.2554 - acc: 0.7837 - val_loss: 0.5117 - val_acc: 0.8126
+
+03-26 11:27 root         INFO     Epoch 16/100
+03-26 11:39 root         INFO     
+
+03-26 11:39 root         INFO     05: min norm 1.2171 max norm 27.5568
+03-26 11:39 root         INFO     07: min norm 10.8284 max norm 10.8670
+03-26 11:39 root         INFO     
+
+03-26 11:39 root         INFO     Epoch 00015: val_loss did not improve
+03-26 11:41 root         INFO     
+Confusion matrix
+03-26 11:41 root         INFO     [[268186  91029]
+ [   169 119604]]
+03-26 11:41 root         INFO     
+Classification report
+03-26 11:41 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.75      0.85    359215
+          1       0.57      1.00      0.72    119773
+
+avg / total       0.89      0.81      0.82    478988
+
+03-26 11:41 root         INFO     846s - loss: 0.2464 - acc: 0.7928 - val_loss: 0.5477 - val_acc: 0.8096
+
+03-26 11:41 root         INFO     Epoch 17/100
+03-26 11:52 root         INFO     
+
+03-26 11:52 root         INFO     05: min norm 1.2166 max norm 28.7368
+03-26 11:52 root         INFO     07: min norm 11.7490 max norm 11.7908
+03-26 11:52 root         INFO     
+
+03-26 11:52 root         INFO     Epoch 00016: val_loss did not improve
+03-26 11:55 root         INFO     
+Confusion matrix
+03-26 11:55 root         INFO     [[262471  96744]
+ [    50 119723]]
+03-26 11:55 root         INFO     
+Classification report
+03-26 11:55 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.73      0.84    359215
+          1       0.55      1.00      0.71    119773
+
+avg / total       0.89      0.80      0.81    478988
+
+03-26 11:55 root         INFO     794s - loss: 0.2345 - acc: 0.8035 - val_loss: 0.6056 - val_acc: 0.7979
+
+03-26 11:55 root         INFO     Epoch 18/100
+03-26 12:06 root         INFO     
+
+03-26 12:06 root         INFO     05: min norm 1.2161 max norm 29.9203
+03-26 12:06 root         INFO     07: min norm 12.6494 max norm 12.6930
+03-26 12:06 root         INFO     
+
+03-26 12:06 root         INFO     Epoch 00017: val_loss did not improve
+03-26 12:09 root         INFO     
+Confusion matrix
+03-26 12:09 root         INFO     [[266251  92964]
+ [    63 119710]]
+03-26 12:09 root         INFO     
+Classification report
+03-26 12:09 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.74      0.85    359215
+          1       0.56      1.00      0.72    119773
+
+avg / total       0.89      0.81      0.82    478988
+
+03-26 12:09 root         INFO     853s - loss: 0.2254 - acc: 0.8119 - val_loss: 0.6093 - val_acc: 0.8058
+
+03-26 12:09 root         INFO     Epoch 19/100
+03-26 12:21 root         INFO     
+
+03-26 12:21 root         INFO     05: min norm 1.2304 max norm 31.1063
+03-26 12:21 root         INFO     07: min norm 13.6040 max norm 13.6456
+03-26 12:21 root         INFO     
+
+03-26 12:21 root         INFO     Epoch 00018: val_loss improved from 0.51175 to 0.47269, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 12:23 root         INFO     
+Confusion matrix
+03-26 12:23 root         INFO     [[282095  77120]
+ [   338 119435]]
+03-26 12:23 root         INFO     
+Classification report
+03-26 12:23 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.79      0.88    359215
+          1       0.61      1.00      0.76    119773
+
+avg / total       0.90      0.84      0.85    478988
+
+03-26 12:23 root         INFO     849s - loss: 0.2159 - acc: 0.8207 - val_loss: 0.4727 - val_acc: 0.8383
+
+03-26 12:23 root         INFO     Epoch 20/100
+03-26 12:35 root         INFO     
+
+03-26 12:35 root         INFO     05: min norm 1.2298 max norm 32.2272
+03-26 12:35 root         INFO     07: min norm 14.4942 max norm 14.5352
+03-26 12:35 root         INFO     
+
+03-26 12:35 root         INFO     Epoch 00019: val_loss did not improve
+03-26 12:37 root         INFO     
+Confusion matrix
+03-26 12:37 root         INFO     [[278443  80772]
+ [   107 119666]]
+03-26 12:37 root         INFO     
+Classification report
+03-26 12:37 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.78      0.87    359215
+          1       0.60      1.00      0.75    119773
+
+avg / total       0.90      0.83      0.84    478988
+
+03-26 12:37 root         INFO     841s - loss: 0.2079 - acc: 0.8288 - val_loss: 0.4937 - val_acc: 0.8311
+
+03-26 12:37 root         INFO     Epoch 21/100
+03-26 12:49 root         INFO     
+
+03-26 12:49 root         INFO     05: min norm 1.2302 max norm 33.5494
+03-26 12:49 root         INFO     07: min norm 15.4124 max norm 15.4520
+03-26 12:49 root         INFO     
+
+03-26 12:49 root         INFO     Epoch 00020: val_loss improved from 0.47269 to 0.39911, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 12:51 root         INFO     
+Confusion matrix
+03-26 12:51 root         INFO     [[293090  66125]
+ [   409 119364]]
+03-26 12:51 root         INFO     
+Classification report
+03-26 12:51 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.82      0.90    359215
+          1       0.64      1.00      0.78    119773
+
+avg / total       0.91      0.86      0.87    478988
+
+03-26 12:51 root         INFO     838s - loss: 0.1978 - acc: 0.8380 - val_loss: 0.3991 - val_acc: 0.8611
+
+03-26 12:51 root         INFO     Epoch 22/100
+03-26 13:03 root         INFO     
+
+03-26 13:03 root         INFO     05: min norm 1.2297 max norm 34.5619
+03-26 13:03 root         INFO     07: min norm 16.2998 max norm 16.3356
+03-26 13:03 root         INFO     
+
+03-26 13:03 root         INFO     Epoch 00021: val_loss did not improve
+03-26 13:05 root         INFO     
+Confusion matrix
+03-26 13:05 root         INFO     [[290560  68655]
+ [   208 119565]]
+03-26 13:05 root         INFO     
+Classification report
+03-26 13:05 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.81      0.89    359215
+          1       0.64      1.00      0.78    119773
+
+avg / total       0.91      0.86      0.86    478988
+
+03-26 13:05 root         INFO     849s - loss: 0.1913 - acc: 0.8435 - val_loss: 0.4312 - val_acc: 0.8562
+
+03-26 13:05 root         INFO     Epoch 23/100
+03-26 13:17 root         INFO     
+
+03-26 13:17 root         INFO     05: min norm 1.2291 max norm 35.7894
+03-26 13:17 root         INFO     07: min norm 17.1570 max norm 17.1917
+03-26 13:17 root         INFO     
+
+03-26 13:17 root         INFO     Epoch 00022: val_loss did not improve
+03-26 13:19 root         INFO     
+Confusion matrix
+03-26 13:19 root         INFO     [[284727  74488]
+ [    84 119689]]
+03-26 13:19 root         INFO     
+Classification report
+03-26 13:19 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.79      0.88    359215
+          1       0.62      1.00      0.76    119773
+
+avg / total       0.90      0.84      0.85    478988
+
+03-26 13:19 root         INFO     844s - loss: 0.1859 - acc: 0.8485 - val_loss: 0.4663 - val_acc: 0.8443
+
+03-26 13:19 root         INFO     Epoch 24/100
+03-26 13:31 root         INFO     
+
+03-26 13:31 root         INFO     05: min norm 1.2286 max norm 36.8546
+03-26 13:31 root         INFO     07: min norm 18.0752 max norm 18.1021
+03-26 13:31 root         INFO     
+
+03-26 13:31 root         INFO     Epoch 00023: val_loss did not improve
+03-26 13:33 root         INFO     
+Confusion matrix
+03-26 13:33 root         INFO     [[288057  71158]
+ [    95 119678]]
+03-26 13:33 root         INFO     
+Classification report
+03-26 13:33 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.80      0.89    359215
+          1       0.63      1.00      0.77    119773
+
+avg / total       0.91      0.85      0.86    478988
+
+03-26 13:33 root         INFO     843s - loss: 0.1788 - acc: 0.8554 - val_loss: 0.4535 - val_acc: 0.8512
+
+03-26 13:33 root         INFO     Epoch 25/100
+03-26 13:45 root         INFO     
+
+03-26 13:45 root         INFO     05: min norm 1.2281 max norm 38.0305
+03-26 13:45 root         INFO     07: min norm 18.9432 max norm 18.9658
+03-26 13:45 root         INFO     
+
+03-26 13:45 root         INFO     Epoch 00024: val_loss improved from 0.39911 to 0.37646, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 13:47 root         INFO     
+Confusion matrix
+03-26 13:47 root         INFO     [[299298  59917]
+ [   229 119544]]
+03-26 13:47 root         INFO     
+Classification report
+03-26 13:47 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.83      0.91    359215
+          1       0.67      1.00      0.80    119773
+
+avg / total       0.92      0.87      0.88    478988
+
+03-26 13:47 root         INFO     843s - loss: 0.1725 - acc: 0.8614 - val_loss: 0.3765 - val_acc: 0.8744
+
+03-26 13:47 root         INFO     Epoch 26/100
+03-26 13:59 root         INFO     
+
+03-26 13:59 root         INFO     05: min norm 1.2276 max norm 39.2856
+03-26 13:59 root         INFO     07: min norm 19.7472 max norm 19.7659
+03-26 13:59 root         INFO     
+
+03-26 13:59 root         INFO     Epoch 00025: val_loss improved from 0.37646 to 0.36717, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 14:02 root         INFO     
+Confusion matrix
+03-26 14:02 root         INFO     [[299079  60136]
+ [   144 119629]]
+03-26 14:02 root         INFO     
+Classification report
+03-26 14:02 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.83      0.91    359215
+          1       0.67      1.00      0.80    119773
+
+avg / total       0.92      0.87      0.88    478988
+
+03-26 14:02 root         INFO     849s - loss: 0.1679 - acc: 0.8653 - val_loss: 0.3672 - val_acc: 0.8742
+
+03-26 14:02 root         INFO     Epoch 27/100
+03-26 14:13 root         INFO     
+
+03-26 14:13 root         INFO     05: min norm 1.2270 max norm 40.5467
+03-26 14:13 root         INFO     07: min norm 20.6252 max norm 20.6400
+03-26 14:13 root         INFO     
+
+03-26 14:13 root         INFO     Epoch 00026: val_loss did not improve
+03-26 14:15 root         INFO     
+Confusion matrix
+03-26 14:15 root         INFO     [[293468  65747]
+ [    97 119676]]
+03-26 14:15 root         INFO     
+Classification report
+03-26 14:15 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.82      0.90    359215
+          1       0.65      1.00      0.78    119773
+
+avg / total       0.91      0.86      0.87    478988
+
+03-26 14:15 root         INFO     819s - loss: 0.1622 - acc: 0.8702 - val_loss: 0.4124 - val_acc: 0.8625
+
+03-26 14:15 root         INFO     Epoch 28/100
+03-26 14:27 root         INFO     
+
+03-26 14:27 root         INFO     05: min norm 1.2265 max norm 41.4949
+03-26 14:27 root         INFO     07: min norm 21.4784 max norm 21.4922
+03-26 14:27 root         INFO     
+
+03-26 14:27 root         INFO     Epoch 00027: val_loss improved from 0.36717 to 0.32841, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 14:29 root         INFO     
+Confusion matrix
+03-26 14:29 root         INFO     [[307459  51756]
+ [   220 119553]]
+03-26 14:29 root         INFO     
+Classification report
+03-26 14:29 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.86      0.92    359215
+          1       0.70      1.00      0.82    119773
+
+avg / total       0.92      0.89      0.90    478988
+
+03-26 14:29 root         INFO     846s - loss: 0.1572 - acc: 0.8741 - val_loss: 0.3284 - val_acc: 0.8915
+
+03-26 14:29 root         INFO     Epoch 29/100
+03-26 14:41 root         INFO     
+
+03-26 14:41 root         INFO     05: min norm 1.2260 max norm 42.8725
+03-26 14:41 root         INFO     07: min norm 22.2561 max norm 22.2663
+03-26 14:41 root         INFO     
+
+03-26 14:41 root         INFO     Epoch 00028: val_loss improved from 0.32841 to 0.31401, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 14:43 root         INFO     
+Confusion matrix
+03-26 14:44 root         INFO     [[307083  52132]
+ [   604 119169]]
+03-26 14:44 root         INFO     
+Classification report
+03-26 14:44 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.85      0.92    359215
+          1       0.70      0.99      0.82    119773
+
+avg / total       0.92      0.89      0.90    478988
+
+03-26 14:44 root         INFO     850s - loss: 0.1549 - acc: 0.8767 - val_loss: 0.3140 - val_acc: 0.8899
+
+03-26 14:44 root         INFO     Epoch 30/100
+03-26 14:55 root         INFO     
+
+03-26 14:55 root         INFO     05: min norm 1.2255 max norm 44.0595
+03-26 14:55 root         INFO     07: min norm 23.0607 max norm 23.0677
+03-26 14:55 root         INFO     
+
+03-26 14:55 root         INFO     Epoch 00029: val_loss did not improve
+03-26 14:57 root         INFO     
+Confusion matrix
+03-26 14:57 root         INFO     [[303553  55662]
+ [   115 119658]]
+03-26 14:57 root         INFO     
+Classification report
+03-26 14:57 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.85      0.92    359215
+          1       0.68      1.00      0.81    119773
+
+avg / total       0.92      0.88      0.89    478988
+
+03-26 14:57 root         INFO     838s - loss: 0.1481 - acc: 0.8822 - val_loss: 0.3604 - val_acc: 0.8836
+
+03-26 14:57 root         INFO     Epoch 31/100
+03-26 15:08 root         INFO     
+
+03-26 15:08 root         INFO     05: min norm 1.2249 max norm 44.9345
+03-26 15:08 root         INFO     07: min norm 23.8808 max norm 23.8839
+03-26 15:08 root         INFO     
+
+03-26 15:08 root         INFO     Epoch 00030: val_loss improved from 0.31401 to 0.28601, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 15:10 root         INFO     
+Confusion matrix
+03-26 15:11 root         INFO     [[313002  46213]
+ [   221 119552]]
+03-26 15:11 root         INFO     
+Classification report
+03-26 15:11 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.87      0.93    359215
+          1       0.72      1.00      0.84    119773
+
+avg / total       0.93      0.90      0.91    478988
+
+03-26 15:11 root         INFO     780s - loss: 0.1438 - acc: 0.8858 - val_loss: 0.2860 - val_acc: 0.9031
+
+03-26 15:11 root         INFO     Epoch 32/100
+03-26 15:21 root         INFO     
+
+03-26 15:21 root         INFO     05: min norm 1.2244 max norm 46.2166
+03-26 15:21 root         INFO     07: min norm 24.6229 max norm 24.6229
+03-26 15:21 root         INFO     
+
+03-26 15:21 root         INFO     Epoch 00031: val_loss did not improve
+03-26 15:24 root         INFO     
+Confusion matrix
+03-26 15:24 root         INFO     [[293712  65503]
+ [    55 119718]]
+03-26 15:24 root         INFO     
+Classification report
+03-26 15:24 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.82      0.90    359215
+          1       0.65      1.00      0.79    119773
+
+avg / total       0.91      0.86      0.87    478988
+
+03-26 15:24 root         INFO     785s - loss: 0.1427 - acc: 0.8874 - val_loss: 0.4280 - val_acc: 0.8631
+
+03-26 15:24 root         INFO     Epoch 33/100
+03-26 15:34 root         INFO     
+
+03-26 15:34 root         INFO     05: min norm 1.2239 max norm 47.4232
+03-26 15:34 root         INFO     07: min norm 25.2978 max norm 25.3006
+03-26 15:34 root         INFO     
+
+03-26 15:34 root         INFO     Epoch 00032: val_loss did not improve
+03-26 15:37 root         INFO     
+Confusion matrix
+03-26 15:37 root         INFO     [[308507  50708]
+ [   151 119622]]
+03-26 15:37 root         INFO     
+Classification report
+03-26 15:37 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.86      0.92    359215
+          1       0.70      1.00      0.82    119773
+
+avg / total       0.93      0.89      0.90    478988
+
+03-26 15:37 root         INFO     778s - loss: 0.1394 - acc: 0.8898 - val_loss: 0.3185 - val_acc: 0.8938
+
+03-26 15:37 root         INFO     Epoch 34/100
+03-26 15:47 root         INFO     
+
+03-26 15:47 root         INFO     05: min norm 1.2234 max norm 48.5737
+03-26 15:47 root         INFO     07: min norm 25.9803 max norm 25.9844
+03-26 15:47 root         INFO     
+
+03-26 15:47 root         INFO     Epoch 00033: val_loss did not improve
+03-26 15:50 root         INFO     
+Confusion matrix
+03-26 15:50 root         INFO     [[307942  51273]
+ [   251 119522]]
+03-26 15:50 root         INFO     
+Classification report
+03-26 15:50 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.86      0.92    359215
+          1       0.70      1.00      0.82    119773
+
+avg / total       0.92      0.89      0.90    478988
+
+03-26 15:50 root         INFO     784s - loss: 0.1363 - acc: 0.8927 - val_loss: 0.3160 - val_acc: 0.8924
+
+03-26 15:50 root         INFO     Epoch 35/100
+03-26 16:00 root         INFO     
+
+03-26 16:00 root         INFO     05: min norm 1.2228 max norm 49.7783
+03-26 16:00 root         INFO     07: min norm 26.6321 max norm 26.6378
+03-26 16:00 root         INFO     
+
+03-26 16:00 root         INFO     Epoch 00034: val_loss did not improve
+03-26 16:03 root         INFO     
+Confusion matrix
+03-26 16:03 root         INFO     [[307546  51669]
+ [    80 119693]]
+03-26 16:03 root         INFO     
+Classification report
+03-26 16:03 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.86      0.92    359215
+          1       0.70      1.00      0.82    119773
+
+avg / total       0.92      0.89      0.90    478988
+
+03-26 16:03 root         INFO     778s - loss: 0.1360 - acc: 0.8935 - val_loss: 0.3246 - val_acc: 0.8920
+
+03-26 16:03 root         INFO     Epoch 36/100
+03-26 16:13 root         INFO     
+
+03-26 16:13 root         INFO     05: min norm 1.2223 max norm 51.0190
+03-26 16:13 root         INFO     07: min norm 27.3435 max norm 27.3507
+03-26 16:13 root         INFO     
+
+03-26 16:13 root         INFO     Epoch 00035: val_loss improved from 0.28601 to 0.26996, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 16:16 root         INFO     
+Confusion matrix
+03-26 16:16 root         INFO     [[316845  42370]
+ [   389 119384]]
+03-26 16:16 root         INFO     
+Classification report
+03-26 16:16 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.88      0.94    359215
+          1       0.74      1.00      0.85    119773
+
+avg / total       0.93      0.91      0.91    478988
+
+03-26 16:16 root         INFO     783s - loss: 0.1308 - acc: 0.8968 - val_loss: 0.2700 - val_acc: 0.9107
+
+03-26 16:16 root         INFO     Epoch 37/100
+03-26 16:27 root         INFO     
+
+03-26 16:27 root         INFO     05: min norm 1.2218 max norm 52.3213
+03-26 16:27 root         INFO     07: min norm 28.0098 max norm 28.0182
+03-26 16:27 root         INFO     
+
+03-26 16:27 root         INFO     Epoch 00036: val_loss did not improve
+03-26 16:29 root         INFO     
+Confusion matrix
+03-26 16:29 root         INFO     [[314293  44922]
+ [   242 119531]]
+03-26 16:29 root         INFO     
+Classification report
+03-26 16:29 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.87      0.93    359215
+          1       0.73      1.00      0.84    119773
+
+avg / total       0.93      0.91      0.91    478988
+
+03-26 16:29 root         INFO     779s - loss: 0.1298 - acc: 0.8980 - val_loss: 0.2849 - val_acc: 0.9057
+
+03-26 16:29 root         INFO     Epoch 38/100
+03-26 16:39 root         INFO     
+
+03-26 16:39 root         INFO     05: min norm 1.2213 max norm 53.5379
+03-26 16:39 root         INFO     07: min norm 28.6296 max norm 28.6386
+03-26 16:39 root         INFO     
+
+03-26 16:39 root         INFO     Epoch 00037: val_loss did not improve
+03-26 16:42 root         INFO     
+Confusion matrix
+03-26 16:42 root         INFO     [[316750  42465]
+ [   183 119590]]
+03-26 16:42 root         INFO     
+Classification report
+03-26 16:42 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.88      0.94    359215
+          1       0.74      1.00      0.85    119773
+
+avg / total       0.93      0.91      0.91    478988
+
+03-26 16:42 root         INFO     780s - loss: 0.1292 - acc: 0.8986 - val_loss: 0.2725 - val_acc: 0.9110
+
+03-26 16:42 root         INFO     Epoch 39/100
+03-26 16:52 root         INFO     
+
+03-26 16:52 root         INFO     05: min norm 1.2207 max norm 54.6859
+03-26 16:52 root         INFO     07: min norm 29.2485 max norm 29.2608
+03-26 16:52 root         INFO     
+
+03-26 16:52 root         INFO     Epoch 00038: val_loss did not improve
+03-26 16:55 root         INFO     
+Confusion matrix
+03-26 16:55 root         INFO     [[312003  47212]
+ [   228 119545]]
+03-26 16:55 root         INFO     
+Classification report
+03-26 16:55 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.87      0.93    359215
+          1       0.72      1.00      0.83    119773
+
+avg / total       0.93      0.90      0.91    478988
+
+03-26 16:55 root         INFO     776s - loss: 0.1257 - acc: 0.9016 - val_loss: 0.3066 - val_acc: 0.9010
+
+03-26 16:55 root         INFO     Epoch 40/100
+03-26 17:05 root         INFO     
+
+03-26 17:05 root         INFO     05: min norm 1.2202 max norm 55.8591
+03-26 17:05 root         INFO     07: min norm 29.9075 max norm 29.9199
+03-26 17:05 root         INFO     
+
+03-26 17:05 root         INFO     Epoch 00039: val_loss did not improve
+03-26 17:08 root         INFO     
+Confusion matrix
+03-26 17:08 root         INFO     [[316112  43103]
+ [   246 119527]]
+03-26 17:08 root         INFO     
+Classification report
+03-26 17:08 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.88      0.94    359215
+          1       0.73      1.00      0.85    119773
+
+avg / total       0.93      0.91      0.91    478988
+
+03-26 17:08 root         INFO     784s - loss: 0.1236 - acc: 0.9031 - val_loss: 0.2731 - val_acc: 0.9095
+
+03-26 17:08 root         INFO     Epoch 41/100
+03-26 17:19 root         INFO     
+
+03-26 17:19 root         INFO     05: min norm 1.2197 max norm 56.9125
+03-26 17:19 root         INFO     07: min norm 30.4577 max norm 30.4722
+03-26 17:19 root         INFO     
+
+03-26 17:19 root         INFO     Epoch 00040: val_loss improved from 0.26996 to 0.25589, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 17:21 root         INFO     
+Confusion matrix
+03-26 17:21 root         INFO     [[318027  41188]
+ [   257 119516]]
+03-26 17:21 root         INFO     
+Classification report
+03-26 17:21 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.89      0.94    359215
+          1       0.74      1.00      0.85    119773
+
+avg / total       0.94      0.91      0.92    478988
+
+03-26 17:21 root         INFO     779s - loss: 0.1243 - acc: 0.9027 - val_loss: 0.2559 - val_acc: 0.9135
+
+03-26 17:21 root         INFO     Epoch 42/100
+03-26 17:31 root         INFO     
+
+03-26 17:31 root         INFO     05: min norm 1.2192 max norm 58.0956
+03-26 17:31 root         INFO     07: min norm 31.0317 max norm 31.0456
+03-26 17:31 root         INFO     
+
+03-26 17:31 root         INFO     Epoch 00041: val_loss did not improve
+03-26 17:34 root         INFO     
+Confusion matrix
+03-26 17:34 root         INFO     [[312624  46591]
+ [   221 119552]]
+03-26 17:34 root         INFO     
+Classification report
+03-26 17:34 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.87      0.93    359215
+          1       0.72      1.00      0.84    119773
+
+avg / total       0.93      0.90      0.91    478988
+
+03-26 17:34 root         INFO     782s - loss: 0.1218 - acc: 0.9048 - val_loss: 0.3006 - val_acc: 0.9023
+
+03-26 17:34 root         INFO     Epoch 43/100
+03-26 17:45 root         INFO     
+
+03-26 17:45 root         INFO     05: min norm 1.2186 max norm 59.3426
+03-26 17:45 root         INFO     07: min norm 31.5757 max norm 31.5918
+03-26 17:45 root         INFO     
+
+03-26 17:45 root         INFO     Epoch 00042: val_loss did not improve
+03-26 17:47 root         INFO     
+Confusion matrix
+03-26 17:47 root         INFO     [[311399  47816]
+ [   239 119534]]
+03-26 17:47 root         INFO     
+Classification report
+03-26 17:47 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.87      0.93    359215
+          1       0.71      1.00      0.83    119773
+
+avg / total       0.93      0.90      0.90    478988
+
+03-26 17:47 root         INFO     779s - loss: 0.1220 - acc: 0.9049 - val_loss: 0.3081 - val_acc: 0.8997
+
+03-26 17:47 root         INFO     Epoch 44/100
+03-26 17:58 root         INFO     
+
+03-26 17:58 root         INFO     05: min norm 1.2181 max norm 60.4515
+03-26 17:58 root         INFO     07: min norm 32.0793 max norm 32.0961
+03-26 17:58 root         INFO     
+
+03-26 17:58 root         INFO     Epoch 00043: val_loss did not improve
+03-26 18:01 root         INFO     
+Confusion matrix
+03-26 18:01 root         INFO     [[309772  49443]
+ [   512 119261]]
+03-26 18:01 root         INFO     
+Classification report
+03-26 18:01 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.86      0.93    359215
+          1       0.71      1.00      0.83    119773
+
+avg / total       0.93      0.90      0.90    478988
+
+03-26 18:01 root         INFO     839s - loss: 0.1202 - acc: 0.9058 - val_loss: 0.3257 - val_acc: 0.8957
+
+03-26 18:01 root         INFO     Epoch 45/100
+03-26 18:13 root         INFO     
+
+03-26 18:13 root         INFO     05: min norm 1.2176 max norm 61.6833
+03-26 18:13 root         INFO     07: min norm 32.6463 max norm 32.6637
+03-26 18:13 root         INFO     
+
+03-26 18:13 root         INFO     Epoch 00044: val_loss did not improve
+03-26 18:15 root         INFO     
+Confusion matrix
+03-26 18:15 root         INFO     [[311037  48178]
+ [   160 119613]]
+03-26 18:15 root         INFO     
+Classification report
+03-26 18:15 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.87      0.93    359215
+          1       0.71      1.00      0.83    119773
+
+avg / total       0.93      0.90      0.90    478988
+
+03-26 18:15 root         INFO     842s - loss: 0.1180 - acc: 0.9075 - val_loss: 0.3118 - val_acc: 0.8991
+
+03-26 18:15 root         INFO     Epoch 46/100
+03-26 18:26 root         INFO     
+
+03-26 18:26 root         INFO     05: min norm 1.2171 max norm 62.9501
+03-26 18:26 root         INFO     07: min norm 33.1791 max norm 33.1981
+03-26 18:26 root         INFO     
+
+03-26 18:26 root         INFO     Epoch 00045: val_loss did not improve
+03-26 18:28 root         INFO     
+Confusion matrix
+03-26 18:28 root         INFO     [[315104  44111]
+ [   209 119564]]
+03-26 18:28 root         INFO     
+Classification report
+03-26 18:28 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.88      0.93    359215
+          1       0.73      1.00      0.84    119773
+
+avg / total       0.93      0.91      0.91    478988
+
+03-26 18:28 root         INFO     808s - loss: 0.1181 - acc: 0.9075 - val_loss: 0.2840 - val_acc: 0.9075
+
+03-26 18:28 root         INFO     Epoch 47/100
+03-26 18:40 root         INFO     
+
+03-26 18:40 root         INFO     05: min norm 1.2166 max norm 64.2318
+03-26 18:40 root         INFO     07: min norm 33.6029 max norm 33.6230
+03-26 18:40 root         INFO     
+
+03-26 18:40 root         INFO     Epoch 00046: val_loss did not improve
+03-26 18:42 root         INFO     
+Confusion matrix
+03-26 18:42 root         INFO     [[314365  44850]
+ [   236 119537]]
+03-26 18:42 root         INFO     
+Classification report
+03-26 18:42 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.88      0.93    359215
+          1       0.73      1.00      0.84    119773
+
+avg / total       0.93      0.91      0.91    478988
+
+03-26 18:42 root         INFO     834s - loss: 0.1210 - acc: 0.9059 - val_loss: 0.2801 - val_acc: 0.9059
+
+03-26 18:42 root         INFO     Epoch 48/100
+03-26 18:54 root         INFO     
+
+03-26 18:54 root         INFO     05: min norm 1.2160 max norm 65.4354
+03-26 18:54 root         INFO     07: min norm 34.1310 max norm 34.1504
+03-26 18:54 root         INFO     
+
+03-26 18:54 root         INFO     Epoch 00047: val_loss did not improve
+03-26 18:56 root         INFO     
+Confusion matrix
+03-26 18:56 root         INFO     [[308548  50667]
+ [   103 119670]]
+03-26 18:56 root         INFO     
+Classification report
+03-26 18:56 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.86      0.92    359215
+          1       0.70      1.00      0.82    119773
+
+avg / total       0.93      0.89      0.90    478988
+
+03-26 18:56 root         INFO     842s - loss: 0.1162 - acc: 0.9091 - val_loss: 0.3270 - val_acc: 0.8940
+
+03-26 18:56 root         INFO     Epoch 49/100
+03-26 19:08 root         INFO     
+
+03-26 19:08 root         INFO     05: min norm 1.2155 max norm 66.6158
+03-26 19:08 root         INFO     07: min norm 34.6419 max norm 34.6618
+03-26 19:08 root         INFO     
+
+03-26 19:08 root         INFO     Epoch 00048: val_loss did not improve
+03-26 19:10 root         INFO     
+Confusion matrix
+03-26 19:10 root         INFO     [[317702  41513]
+ [   270 119503]]
+03-26 19:10 root         INFO     
+Classification report
+03-26 19:10 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.88      0.94    359215
+          1       0.74      1.00      0.85    119773
+
+avg / total       0.93      0.91      0.92    478988
+
+03-26 19:10 root         INFO     853s - loss: 0.1160 - acc: 0.9095 - val_loss: 0.2634 - val_acc: 0.9128
+
+03-26 19:10 root         INFO     Epoch 50/100
+03-26 19:22 root         INFO     
+
+03-26 19:22 root         INFO     05: min norm 1.2150 max norm 67.9056
+03-26 19:22 root         INFO     07: min norm 35.0631 max norm 35.0829
+03-26 19:22 root         INFO     
+
+03-26 19:22 root         INFO     Epoch 00049: val_loss did not improve
+03-26 19:24 root         INFO     
+Confusion matrix
+03-26 19:24 root         INFO     [[304120  55095]
+ [   143 119630]]
+03-26 19:24 root         INFO     
+Classification report
+03-26 19:24 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.85      0.92    359215
+          1       0.68      1.00      0.81    119773
+
+avg / total       0.92      0.88      0.89    478988
+
+03-26 19:24 root         INFO     844s - loss: 0.1171 - acc: 0.9086 - val_loss: 0.3637 - val_acc: 0.8847
+
+03-26 19:24 root         INFO     Epoch 51/100
+03-26 19:36 root         INFO     
+
+03-26 19:36 root         INFO     05: min norm 1.2145 max norm 69.2559
+03-26 19:36 root         INFO     07: min norm 35.5287 max norm 35.5485
+03-26 19:36 root         INFO     
+
+03-26 19:36 root         INFO     Epoch 00050: val_loss improved from 0.25589 to 0.20884, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 19:38 root         INFO     
+Confusion matrix
+03-26 19:39 root         INFO     [[325203  34012]
+ [   296 119477]]
+03-26 19:39 root         INFO     
+Classification report
+03-26 19:39 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.91      0.95    359215
+          1       0.78      1.00      0.87    119773
+
+avg / total       0.94      0.93      0.93    478988
+
+03-26 19:39 root         INFO     841s - loss: 0.1139 - acc: 0.9112 - val_loss: 0.2088 - val_acc: 0.9284
+
+03-26 19:39 root         INFO     Epoch 52/100
+03-26 19:50 root         INFO     
+
+03-26 19:50 root         INFO     05: min norm 1.2139 max norm 70.2734
+03-26 19:50 root         INFO     07: min norm 36.0284 max norm 36.0496
+03-26 19:50 root         INFO     
+
+03-26 19:50 root         INFO     Epoch 00051: val_loss did not improve
+03-26 19:53 root         INFO     
+Confusion matrix
+03-26 19:53 root         INFO     [[297311  61904]
+ [   458 119315]]
+03-26 19:53 root         INFO     
+Classification report
+03-26 19:53 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.83      0.91    359215
+          1       0.66      1.00      0.79    119773
+
+avg / total       0.91      0.87      0.88    478988
+
+03-26 19:53 root         INFO     855s - loss: 0.1129 - acc: 0.9122 - val_loss: 0.4178 - val_acc: 0.8698
+
+03-26 19:53 root         INFO     Epoch 53/100
+03-26 20:04 root         INFO     
+
+03-26 20:04 root         INFO     05: min norm 1.2134 max norm 71.6135
+03-26 20:04 root         INFO     07: min norm 36.4341 max norm 36.4559
+03-26 20:04 root         INFO     
+
+03-26 20:04 root         INFO     Epoch 00052: val_loss did not improve
+03-26 20:07 root         INFO     
+Confusion matrix
+03-26 20:07 root         INFO     [[307282  51933]
+ [    98 119675]]
+03-26 20:07 root         INFO     
+Classification report
+03-26 20:07 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.86      0.92    359215
+          1       0.70      1.00      0.82    119773
+
+avg / total       0.92      0.89      0.90    478988
+
+03-26 20:07 root         INFO     841s - loss: 0.1146 - acc: 0.9109 - val_loss: 0.3427 - val_acc: 0.8914
+
+03-26 20:07 root         INFO     Epoch 54/100
+03-26 20:18 root         INFO     
+
+03-26 20:18 root         INFO     05: min norm 1.2129 max norm 72.8680
+03-26 20:18 root         INFO     07: min norm 36.8852 max norm 36.9054
+03-26 20:18 root         INFO     
+
+03-26 20:18 root         INFO     Epoch 00053: val_loss did not improve
+03-26 20:21 root         INFO     
+Confusion matrix
+03-26 20:21 root         INFO     [[319141  40074]
+ [   205 119568]]
+03-26 20:21 root         INFO     
+Classification report
+03-26 20:21 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.89      0.94    359215
+          1       0.75      1.00      0.86    119773
+
+avg / total       0.94      0.92      0.92    478988
+
+03-26 20:21 root         INFO     834s - loss: 0.1092 - acc: 0.9147 - val_loss: 0.2633 - val_acc: 0.9159
+
+03-26 20:21 root         INFO     Epoch 55/100
+03-26 20:32 root         INFO     
+
+03-26 20:32 root         INFO     05: min norm 1.2124 max norm 74.1427
+03-26 20:32 root         INFO     07: min norm 37.2727 max norm 37.2942
+03-26 20:32 root         INFO     
+
+03-26 20:32 root         INFO     Epoch 00054: val_loss did not improve
+03-26 20:34 root         INFO     
+Confusion matrix
+03-26 20:34 root         INFO     [[321055  38160]
+ [   121 119652]]
+03-26 20:34 root         INFO     
+Classification report
+03-26 20:34 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.89      0.94    359215
+          1       0.76      1.00      0.86    119773
+
+avg / total       0.94      0.92      0.92    478988
+
+03-26 20:34 root         INFO     781s - loss: 0.1125 - acc: 0.9126 - val_loss: 0.2397 - val_acc: 0.9201
+
+03-26 20:34 root         INFO     Epoch 56/100
+03-26 20:45 root         INFO     
+
+03-26 20:45 root         INFO     05: min norm 1.2118 max norm 75.5078
+03-26 20:45 root         INFO     07: min norm 37.6317 max norm 37.6532
+03-26 20:45 root         INFO     
+
+03-26 20:45 root         INFO     Epoch 00055: val_loss did not improve
+03-26 20:48 root         INFO     
+Confusion matrix
+03-26 20:48 root         INFO     [[320865  38350]
+ [   408 119365]]
+03-26 20:48 root         INFO     
+Classification report
+03-26 20:48 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.89      0.94    359215
+          1       0.76      1.00      0.86    119773
+
+avg / total       0.94      0.92      0.92    478988
+
+03-26 20:48 root         INFO     852s - loss: 0.1164 - acc: 0.9096 - val_loss: 0.2362 - val_acc: 0.9191
+
+03-26 20:48 root         INFO     Epoch 57/100
+03-26 21:00 root         INFO     
+
+03-26 21:00 root         INFO     05: min norm 1.2113 max norm 76.6738
+03-26 21:00 root         INFO     07: min norm 38.0482 max norm 38.0690
+03-26 21:00 root         INFO     
+
+03-26 21:00 root         INFO     Epoch 00056: val_loss did not improve
+03-26 21:02 root         INFO     
+Confusion matrix
+03-26 21:02 root         INFO     [[307574  51641]
+ [    93 119680]]
+03-26 21:02 root         INFO     
+Classification report
+03-26 21:02 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.86      0.92    359215
+          1       0.70      1.00      0.82    119773
+
+avg / total       0.92      0.89      0.90    478988
+
+03-26 21:02 root         INFO     844s - loss: 0.1135 - acc: 0.9116 - val_loss: 0.3352 - val_acc: 0.8920
+
+03-26 21:02 root         INFO     Epoch 58/100
+03-26 21:14 root         INFO     
+
+03-26 21:14 root         INFO     05: min norm 1.2108 max norm 77.9451
+03-26 21:14 root         INFO     07: min norm 38.4362 max norm 38.4569
+03-26 21:14 root         INFO     
+
+03-26 21:14 root         INFO     Epoch 00057: val_loss did not improve
+03-26 21:16 root         INFO     
+Confusion matrix
+03-26 21:16 root         INFO     [[301083  58132]
+ [   501 119272]]
+03-26 21:16 root         INFO     
+Classification report
+03-26 21:16 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.84      0.91    359215
+          1       0.67      1.00      0.80    119773
+
+avg / total       0.92      0.88      0.88    478988
+
+03-26 21:16 root         INFO     849s - loss: 0.1135 - acc: 0.9117 - val_loss: 0.4159 - val_acc: 0.8776
+
+03-26 21:16 root         INFO     Epoch 59/100
+03-26 21:28 root         INFO     
+
+03-26 21:28 root         INFO     05: min norm 1.2103 max norm 79.2090
+03-26 21:28 root         INFO     07: min norm 38.7749 max norm 38.7943
+03-26 21:28 root         INFO     
+
+03-26 21:28 root         INFO     Epoch 00058: val_loss did not improve
+03-26 21:30 root         INFO     
+Confusion matrix
+03-26 21:30 root         INFO     [[317760  41455]
+ [   556 119217]]
+03-26 21:30 root         INFO     
+Classification report
+03-26 21:30 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.88      0.94    359215
+          1       0.74      1.00      0.85    119773
+
+avg / total       0.93      0.91      0.92    478988
+
+03-26 21:30 root         INFO     850s - loss: 0.1154 - acc: 0.9106 - val_loss: 0.2697 - val_acc: 0.9123
+
+03-26 21:30 root         INFO     Epoch 60/100
+03-26 21:42 root         INFO     
+
+03-26 21:42 root         INFO     05: min norm 1.2098 max norm 80.4767
+03-26 21:42 root         INFO     07: min norm 39.1359 max norm 39.1556
+03-26 21:42 root         INFO     
+
+03-26 21:42 root         INFO     Epoch 00059: val_loss improved from 0.20884 to 0.19061, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 21:45 root         INFO     
+Confusion matrix
+03-26 21:45 root         INFO     [[328082  31133]
+ [   418 119355]]
+03-26 21:45 root         INFO     
+Classification report
+03-26 21:45 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.91      0.95    359215
+          1       0.79      1.00      0.88    119773
+
+avg / total       0.95      0.93      0.94    478988
+
+03-26 21:45 root         INFO     856s - loss: 0.1091 - acc: 0.9145 - val_loss: 0.1906 - val_acc: 0.9341
+
+03-26 21:45 root         INFO     Epoch 61/100
+03-26 21:56 root         INFO     
+
+03-26 21:56 root         INFO     05: min norm 1.2092 max norm 81.8501
+03-26 21:56 root         INFO     07: min norm 39.4915 max norm 39.5119
+03-26 21:56 root         INFO     
+
+03-26 21:56 root         INFO     Epoch 00060: val_loss did not improve
+03-26 21:59 root         INFO     
+Confusion matrix
+03-26 21:59 root         INFO     [[322283  36932]
+ [   217 119556]]
+03-26 21:59 root         INFO     
+Classification report
+03-26 21:59 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.90      0.95    359215
+          1       0.76      1.00      0.87    119773
+
+avg / total       0.94      0.92      0.93    478988
+
+03-26 21:59 root         INFO     841s - loss: 0.1138 - acc: 0.9120 - val_loss: 0.2276 - val_acc: 0.9224
+
+03-26 21:59 root         INFO     Epoch 62/100
+03-26 22:10 root         INFO     
+
+03-26 22:10 root         INFO     05: min norm 1.2087 max norm 83.1705
+03-26 22:10 root         INFO     07: min norm 39.9029 max norm 39.9229
+03-26 22:10 root         INFO     
+
+03-26 22:10 root         INFO     Epoch 00061: val_loss did not improve
+03-26 22:13 root         INFO     
+Confusion matrix
+03-26 22:13 root         INFO     [[326087  33128]
+ [   156 119617]]
+03-26 22:13 root         INFO     
+Classification report
+03-26 22:13 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.91      0.95    359215
+          1       0.78      1.00      0.88    119773
+
+avg / total       0.95      0.93      0.93    478988
+
+03-26 22:13 root         INFO     844s - loss: 0.1108 - acc: 0.9136 - val_loss: 0.2045 - val_acc: 0.9305
+
+03-26 22:13 root         INFO     Epoch 63/100
+03-26 22:24 root         INFO     
+
+03-26 22:24 root         INFO     05: min norm 1.2082 max norm 84.5725
+03-26 22:24 root         INFO     07: min norm 40.2188 max norm 40.2379
+03-26 22:24 root         INFO     
+
+03-26 22:24 root         INFO     Epoch 00062: val_loss did not improve
+03-26 22:26 root         INFO     
+Confusion matrix
+03-26 22:26 root         INFO     [[322524  36691]
+ [   241 119532]]
+03-26 22:26 root         INFO     
+Classification report
+03-26 22:26 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.90      0.95    359215
+          1       0.77      1.00      0.87    119773
+
+avg / total       0.94      0.92      0.93    478988
+
+03-26 22:26 root         INFO     819s - loss: 0.1152 - acc: 0.9113 - val_loss: 0.2347 - val_acc: 0.9229
+
+03-26 22:26 root         INFO     Epoch 64/100
+03-26 22:37 root         INFO     
+
+03-26 22:37 root         INFO     05: min norm 1.2077 max norm 86.1252
+03-26 22:37 root         INFO     07: min norm 40.5204 max norm 40.5408
+03-26 22:37 root         INFO     
+
+03-26 22:37 root         INFO     Epoch 00063: val_loss did not improve
+03-26 22:39 root         INFO     
+Confusion matrix
+03-26 22:39 root         INFO     [[312073  47142]
+ [   188 119585]]
+03-26 22:39 root         INFO     
+Classification report
+03-26 22:39 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.87      0.93    359215
+          1       0.72      1.00      0.83    119773
+
+avg / total       0.93      0.90      0.91    478988
+
+03-26 22:39 root         INFO     782s - loss: 0.1136 - acc: 0.9124 - val_loss: 0.2967 - val_acc: 0.9012
+
+03-26 22:39 root         INFO     Epoch 65/100
+03-26 22:51 root         INFO     
+
+03-26 22:51 root         INFO     05: min norm 1.2072 max norm 87.4473
+03-26 22:51 root         INFO     07: min norm 40.7611 max norm 40.7809
+03-26 22:51 root         INFO     
+
+03-26 22:51 root         INFO     Epoch 00064: val_loss did not improve
+03-26 22:53 root         INFO     
+Confusion matrix
+03-26 22:53 root         INFO     [[307852  51363]
+ [   144 119629]]
+03-26 22:53 root         INFO     
+Classification report
+03-26 22:53 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.86      0.92    359215
+          1       0.70      1.00      0.82    119773
+
+avg / total       0.92      0.89      0.90    478988
+
+03-26 22:53 root         INFO     827s - loss: 0.1115 - acc: 0.9137 - val_loss: 0.3354 - val_acc: 0.8925
+
+03-26 22:53 root         INFO     Epoch 66/100
+03-26 23:05 root         INFO     
+
+03-26 23:05 root         INFO     05: min norm 1.2066 max norm 88.6554
+03-26 23:05 root         INFO     07: min norm 41.1209 max norm 41.1401
+03-26 23:05 root         INFO     
+
+03-26 23:05 root         INFO     Epoch 00065: val_loss did not improve
+03-26 23:07 root         INFO     
+Confusion matrix
+03-26 23:07 root         INFO     [[315571  43644]
+ [   127 119646]]
+03-26 23:07 root         INFO     
+Classification report
+03-26 23:07 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.88      0.94    359215
+          1       0.73      1.00      0.85    119773
+
+avg / total       0.93      0.91      0.91    478988
+
+03-26 23:07 root         INFO     842s - loss: 0.1096 - acc: 0.9148 - val_loss: 0.2714 - val_acc: 0.9086
+
+03-26 23:07 root         INFO     Epoch 67/100
+03-26 23:19 root         INFO     
+
+03-26 23:19 root         INFO     05: min norm 1.2061 max norm 89.8842
+03-26 23:19 root         INFO     07: min norm 41.3875 max norm 41.4073
+03-26 23:19 root         INFO     
+
+03-26 23:19 root         INFO     Epoch 00066: val_loss improved from 0.19061 to 0.15054, saving model to models/artificial_errors//d1e4e4c6f36311e5aa8efcaa149e39ea/model.h5
+03-26 23:21 root         INFO     
+Confusion matrix
+03-26 23:21 root         INFO     [[334749  24466]
+ [   444 119329]]
+03-26 23:21 root         INFO     
+Classification report
+03-26 23:21 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.93      0.96    359215
+          1       0.83      1.00      0.91    119773
+
+avg / total       0.96      0.95      0.95    478988
+
+03-26 23:21 root         INFO     847s - loss: 0.1099 - acc: 0.9145 - val_loss: 0.1505 - val_acc: 0.9480
+
+03-26 23:21 root         INFO     Epoch 68/100
+03-26 23:33 root         INFO     
+
+03-26 23:33 root         INFO     05: min norm 1.2056 max norm 91.1426
+03-26 23:33 root         INFO     07: min norm 41.6348 max norm 41.6555
+03-26 23:33 root         INFO     
+
+03-26 23:33 root         INFO     Epoch 00067: val_loss did not improve
+03-26 23:35 root         INFO     
+Confusion matrix
+03-26 23:35 root         INFO     [[316970  42245]
+ [   119 119654]]
+03-26 23:35 root         INFO     
+Classification report
+03-26 23:35 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.88      0.94    359215
+          1       0.74      1.00      0.85    119773
+
+avg / total       0.93      0.91      0.92    478988
+
+03-26 23:35 root         INFO     836s - loss: 0.1157 - acc: 0.9114 - val_loss: 0.2728 - val_acc: 0.9116
+
+03-26 23:35 root         INFO     Epoch 69/100
+03-26 23:47 root         INFO     
+
+03-26 23:47 root         INFO     05: min norm 1.2051 max norm 92.5280
+03-26 23:47 root         INFO     07: min norm 41.9480 max norm 41.9694
+03-26 23:47 root         INFO     
+
+03-26 23:47 root         INFO     Epoch 00068: val_loss did not improve
+03-26 23:49 root         INFO     
+Confusion matrix
+03-26 23:49 root         INFO     [[319568  39647]
+ [   102 119671]]
+03-26 23:49 root         INFO     
+Classification report
+03-26 23:49 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.89      0.94    359215
+          1       0.75      1.00      0.86    119773
+
+avg / total       0.94      0.92      0.92    478988
+
+03-26 23:49 root         INFO     838s - loss: 0.1127 - acc: 0.9132 - val_loss: 0.2448 - val_acc: 0.9170
+
+03-26 23:49 root         INFO     Epoch 70/100
+03-27 00:00 root         INFO     
+
+03-27 00:00 root         INFO     05: min norm 1.2046 max norm 93.7844
+03-27 00:00 root         INFO     07: min norm 42.1621 max norm 42.1839
+03-27 00:00 root         INFO     
+
+03-27 00:00 root         INFO     Epoch 00069: val_loss did not improve
+03-27 00:03 root         INFO     
+Confusion matrix
+03-27 00:03 root         INFO     [[323597  35618]
+ [   192 119581]]
+03-27 00:03 root         INFO     
+Classification report
+03-27 00:03 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.90      0.95    359215
+          1       0.77      1.00      0.87    119773
+
+avg / total       0.94      0.93      0.93    478988
+
+03-27 00:03 root         INFO     802s - loss: 0.1103 - acc: 0.9145 - val_loss: 0.2195 - val_acc: 0.9252
+
+03-27 00:03 root         INFO     Epoch 71/100
+03-27 00:13 root         INFO     
+
+03-27 00:13 root         INFO     05: min norm 1.2040 max norm 95.5036
+03-27 00:13 root         INFO     07: min norm 42.3426 max norm 42.3643
+03-27 00:13 root         INFO     
+
+03-27 00:13 root         INFO     Epoch 00070: val_loss did not improve
+03-27 00:16 root         INFO     
+Confusion matrix
+03-27 00:16 root         INFO     [[300214  59001]
+ [  1813 117960]]
+03-27 00:16 root         INFO     
+Classification report
+03-27 00:16 root         INFO                  precision    recall  f1-score   support
+
+          0       0.99      0.84      0.91    359215
+          1       0.67      0.98      0.80    119773
+
+avg / total       0.91      0.87      0.88    478988
+
+03-27 00:16 root         INFO     780s - loss: 0.1165 - acc: 0.9111 - val_loss: 0.3843 - val_acc: 0.8730
+
+03-27 00:16 root         INFO     Epoch 72/100
+03-27 00:26 root         INFO     
+
+03-27 00:26 root         INFO     05: min norm 1.2035 max norm 96.3959
+03-27 00:26 root         INFO     07: min norm 42.6320 max norm 42.6525
+03-27 00:26 root         INFO     
+
+03-27 00:26 root         INFO     Epoch 00071: val_loss did not improve
+03-27 00:29 root         INFO     
+Confusion matrix
+03-27 00:29 root         INFO     [[318794  40421]
+ [   168 119605]]
+03-27 00:29 root         INFO     
+Classification report
+03-27 00:29 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.89      0.94    359215
+          1       0.75      1.00      0.85    119773
+
+avg / total       0.94      0.92      0.92    478988
+
+03-27 00:29 root         INFO     784s - loss: 0.1121 - acc: 0.9130 - val_loss: 0.2593 - val_acc: 0.9153
+
+03-27 00:29 root         INFO     Epoch 73/100
+03-27 00:40 root         INFO     
+
+03-27 00:40 root         INFO     05: min norm 1.2030 max norm 97.6528
+03-27 00:40 root         INFO     07: min norm 42.8273 max norm 42.8483
+03-27 00:40 root         INFO     
+
+03-27 00:40 root         INFO     Epoch 00072: val_loss did not improve
+03-27 00:42 root         INFO     
+Confusion matrix
+03-27 00:42 root         INFO     [[310959  48256]
+ [   127 119646]]
+03-27 00:42 root         INFO     
+Classification report
+03-27 00:42 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.87      0.93    359215
+          1       0.71      1.00      0.83    119773
+
+avg / total       0.93      0.90      0.90    478988
+
+03-27 00:42 root         INFO     778s - loss: 0.1126 - acc: 0.9134 - val_loss: 0.3110 - val_acc: 0.8990
+
+03-27 00:42 root         INFO     Epoch 74/100
+03-27 00:52 root         INFO     
+
+03-27 00:52 root         INFO     05: min norm 1.2025 max norm 99.1833
+03-27 00:52 root         INFO     07: min norm 42.9291 max norm 42.9484
+03-27 00:52 root         INFO     
+
+03-27 00:52 root         INFO     Epoch 00073: val_loss did not improve
+03-27 00:55 root         INFO     
+Confusion matrix
+03-27 00:55 root         INFO     [[299800  59415]
+ [   322 119451]]
+03-27 00:55 root         INFO     
+Classification report
+03-27 00:55 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.83      0.91    359215
+          1       0.67      1.00      0.80    119773
+
+avg / total       0.92      0.88      0.88    478988
+
+03-27 00:55 root         INFO     783s - loss: 0.1143 - acc: 0.9122 - val_loss: 0.4008 - val_acc: 0.8753
+
+03-27 00:55 root         INFO     Epoch 75/100
+03-27 01:06 root         INFO     
+
+03-27 01:06 root         INFO     05: min norm 1.2020 max norm 100.5072
+03-27 01:06 root         INFO     07: min norm 43.1128 max norm 43.1330
+03-27 01:06 root         INFO     
+
+03-27 01:06 root         INFO     Epoch 00074: val_loss did not improve
+03-27 01:08 root         INFO     
+Confusion matrix
+03-27 01:08 root         INFO     [[303859  55356]
+ [   187 119586]]
+03-27 01:08 root         INFO     
+Classification report
+03-27 01:08 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.85      0.92    359215
+          1       0.68      1.00      0.81    119773
+
+avg / total       0.92      0.88      0.89    478988
+
+03-27 01:08 root         INFO     779s - loss: 0.1125 - acc: 0.9132 - val_loss: 0.4227 - val_acc: 0.8840
+
+03-27 01:08 root         INFO     Epoch 76/100
+03-27 01:19 root         INFO     
+
+03-27 01:19 root         INFO     05: min norm 1.2015 max norm 101.9832
+03-27 01:19 root         INFO     07: min norm 43.2734 max norm 43.2939
+03-27 01:19 root         INFO     
+
+03-27 01:19 root         INFO     Epoch 00075: val_loss did not improve
+03-27 01:21 root         INFO     
+Confusion matrix
+03-27 01:21 root         INFO     [[326730  32485]
+ [   256 119517]]
+03-27 01:21 root         INFO     
+Classification report
+03-27 01:21 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.91      0.95    359215
+          1       0.79      1.00      0.88    119773
+
+avg / total       0.95      0.93      0.93    478988
+
+03-27 01:21 root         INFO     783s - loss: 0.1131 - acc: 0.9128 - val_loss: 0.2052 - val_acc: 0.9316
+
+03-27 01:21 root         INFO     Epoch 77/100
+03-27 01:32 root         INFO     
+
+03-27 01:32 root         INFO     05: min norm 1.2009 max norm 103.3169
+03-27 01:32 root         INFO     07: min norm 43.5031 max norm 43.5244
+03-27 01:32 root         INFO     
+
+03-27 01:32 root         INFO     Epoch 00076: val_loss did not improve
+03-27 01:34 root         INFO     
+Confusion matrix
+03-27 01:34 root         INFO     [[320010  39205]
+ [   253 119520]]
+03-27 01:34 root         INFO     
+Classification report
+03-27 01:34 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.89      0.94    359215
+          1       0.75      1.00      0.86    119773
+
+avg / total       0.94      0.92      0.92    478988
+
+03-27 01:34 root         INFO     776s - loss: 0.1104 - acc: 0.9156 - val_loss: 0.2433 - val_acc: 0.9176
+
+03-27 01:34 root         INFO     Epoch 78/100
+03-27 01:45 root         INFO     
+
+03-27 01:45 root         INFO     05: min norm 1.2004 max norm 104.7060
+03-27 01:45 root         INFO     07: min norm 43.6815 max norm 43.7037
+03-27 01:45 root         INFO     
+
+03-27 01:45 root         INFO     Epoch 00077: val_loss did not improve
+03-27 01:47 root         INFO     
+Confusion matrix
+03-27 01:47 root         INFO     [[309134  50081]
+ [    90 119683]]
+03-27 01:47 root         INFO     
+Classification report
+03-27 01:47 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.86      0.92    359215
+          1       0.70      1.00      0.83    119773
+
+avg / total       0.93      0.90      0.90    478988
+
+03-27 01:47 root         INFO     783s - loss: 0.1130 - acc: 0.9137 - val_loss: 0.3315 - val_acc: 0.8953
+
+03-27 01:47 root         INFO     Epoch 79/100
+03-27 01:58 root         INFO     
+
+03-27 01:58 root         INFO     05: min norm 1.1999 max norm 105.9844
+03-27 01:58 root         INFO     07: min norm 43.7471 max norm 43.7697
+03-27 01:58 root         INFO     
+
+03-27 01:58 root         INFO     Epoch 00078: val_loss did not improve
+03-27 02:00 root         INFO     
+Confusion matrix
+03-27 02:00 root         INFO     [[324385  34830]
+ [   119 119654]]
+03-27 02:00 root         INFO     
+Classification report
+03-27 02:00 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.90      0.95    359215
+          1       0.77      1.00      0.87    119773
+
+avg / total       0.94      0.93      0.93    478988
+
+03-27 02:00 root         INFO     778s - loss: 0.1165 - acc: 0.9117 - val_loss: 0.2150 - val_acc: 0.9270
+
+03-27 02:00 root         INFO     Epoch 80/100
+03-27 02:11 root         INFO     
+
+03-27 02:11 root         INFO     05: min norm 1.1994 max norm 107.3301
+03-27 02:11 root         INFO     07: min norm 43.8617 max norm 43.8842
+03-27 02:11 root         INFO     
+
+03-27 02:11 root         INFO     Epoch 00079: val_loss did not improve
+03-27 02:13 root         INFO     
+Confusion matrix
+03-27 02:13 root         INFO     [[302052  57163]
+ [   518 119255]]
+03-27 02:13 root         INFO     
+Classification report
+03-27 02:13 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.84      0.91    359215
+          1       0.68      1.00      0.81    119773
+
+avg / total       0.92      0.88      0.89    478988
+
+03-27 02:13 root         INFO     782s - loss: 0.1124 - acc: 0.9144 - val_loss: 0.4124 - val_acc: 0.8796
+
+03-27 02:13 root         INFO     Epoch 81/100
+03-27 02:24 root         INFO     
+
+03-27 02:24 root         INFO     05: min norm 1.1989 max norm 108.8995
+03-27 02:24 root         INFO     07: min norm 43.9866 max norm 44.0103
+03-27 02:24 root         INFO     
+
+03-27 02:24 root         INFO     Epoch 00080: val_loss did not improve
+03-27 02:26 root         INFO     
+Confusion matrix
+03-27 02:26 root         INFO     [[318660  40555]
+ [   229 119544]]
+03-27 02:26 root         INFO     
+Classification report
+03-27 02:26 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.89      0.94    359215
+          1       0.75      1.00      0.85    119773
+
+avg / total       0.94      0.91      0.92    478988
+
+03-27 02:26 root         INFO     780s - loss: 0.1150 - acc: 0.9124 - val_loss: 0.2467 - val_acc: 0.9149
+
+03-27 02:26 root         INFO     Epoch 82/100
+03-27 02:37 root         INFO     
+
+03-27 02:37 root         INFO     05: min norm 1.1984 max norm 110.2722
+03-27 02:37 root         INFO     07: min norm 44.0819 max norm 44.1052
+03-27 02:37 root         INFO     
+
+03-27 02:37 root         INFO     Epoch 00081: val_loss did not improve
+03-27 02:39 root         INFO     
+Confusion matrix
+03-27 02:39 root         INFO     [[329096  30119]
+ [   172 119601]]
+03-27 02:39 root         INFO     
+Classification report
+03-27 02:39 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.92      0.96    359215
+          1       0.80      1.00      0.89    119773
+
+avg / total       0.95      0.94      0.94    478988
+
+03-27 02:39 root         INFO     782s - loss: 0.1122 - acc: 0.9142 - val_loss: 0.1817 - val_acc: 0.9368
+
+03-27 02:39 root         INFO     Epoch 83/100
+03-27 02:50 root         INFO     
+
+03-27 02:50 root         INFO     05: min norm 1.1979 max norm 111.4578
+03-27 02:50 root         INFO     07: min norm 44.1085 max norm 44.1323
+03-27 02:50 root         INFO     
+
+03-27 02:50 root         INFO     Epoch 00082: val_loss did not improve
+03-27 02:52 root         INFO     
+Confusion matrix
+03-27 02:52 root         INFO     [[320737  38478]
+ [   400 119373]]
+03-27 02:52 root         INFO     
+Classification report
+03-27 02:52 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.89      0.94    359215
+          1       0.76      1.00      0.86    119773
+
+avg / total       0.94      0.92      0.92    478988
+
+03-27 02:52 root         INFO     783s - loss: 0.1157 - acc: 0.9125 - val_loss: 0.2339 - val_acc: 0.9188
+
+03-27 02:52 root         INFO     Epoch 84/100
+03-27 03:03 root         INFO     
+
+03-27 03:03 root         INFO     05: min norm 1.1973 max norm 112.6066
+03-27 03:03 root         INFO     07: min norm 44.2334 max norm 44.2564
+03-27 03:03 root         INFO     
+
+03-27 03:03 root         INFO     Epoch 00083: val_loss did not improve
+03-27 03:05 root         INFO     
+Confusion matrix
+03-27 03:05 root         INFO     [[325681  33534]
+ [   266 119507]]
+03-27 03:05 root         INFO     
+Classification report
+03-27 03:05 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.91      0.95    359215
+          1       0.78      1.00      0.88    119773
+
+avg / total       0.94      0.93      0.93    478988
+
+03-27 03:05 root         INFO     778s - loss: 0.1092 - acc: 0.9159 - val_loss: 0.2089 - val_acc: 0.9294
+
+03-27 03:05 root         INFO     Epoch 85/100
+03-27 03:16 root         INFO     
+
+03-27 03:16 root         INFO     05: min norm 1.1968 max norm 114.0445
+03-27 03:16 root         INFO     07: min norm 44.2736 max norm 44.2975
+03-27 03:16 root         INFO     
+
+03-27 03:16 root         INFO     Epoch 00084: val_loss did not improve
+03-27 03:18 root         INFO     
+Confusion matrix
+03-27 03:18 root         INFO     [[313924  45291]
+ [   395 119378]]
+03-27 03:18 root         INFO     
+Classification report
+03-27 03:18 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.87      0.93    359215
+          1       0.72      1.00      0.84    119773
+
+avg / total       0.93      0.90      0.91    478988
+
+03-27 03:18 root         INFO     786s - loss: 0.1162 - acc: 0.9115 - val_loss: 0.2950 - val_acc: 0.9046
+
+03-27 03:18 root         INFO     Epoch 86/100
+03-27 03:29 root         INFO     
+
+03-27 03:29 root         INFO     05: min norm 1.1963 max norm 115.3544
+03-27 03:29 root         INFO     07: min norm 44.2618 max norm 44.2871
+03-27 03:29 root         INFO     
+
+03-27 03:29 root         INFO     Epoch 00085: val_loss did not improve
+03-27 03:31 root         INFO     
+Confusion matrix
+03-27 03:31 root         INFO     [[322620  36595]
+ [   410 119363]]
+03-27 03:31 root         INFO     
+Classification report
+03-27 03:31 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.90      0.95    359215
+          1       0.77      1.00      0.87    119773
+
+avg / total       0.94      0.92      0.93    478988
+
+03-27 03:31 root         INFO     779s - loss: 0.1228 - acc: 0.9081 - val_loss: 0.2324 - val_acc: 0.9227
+
+03-27 03:31 root         INFO     Epoch 87/100
+03-27 03:42 root         INFO     
+
+03-27 03:42 root         INFO     05: min norm 1.1958 max norm 116.4933
+03-27 03:42 root         INFO     07: min norm 44.3561 max norm 44.3803
+03-27 03:42 root         INFO     
+
+03-27 03:42 root         INFO     Epoch 00086: val_loss did not improve
+03-27 03:44 root         INFO     
+Confusion matrix
+03-27 03:44 root         INFO     [[323923  35292]
+ [   963 118810]]
+03-27 03:44 root         INFO     
+Classification report
+03-27 03:44 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.90      0.95    359215
+          1       0.77      0.99      0.87    119773
+
+avg / total       0.94      0.92      0.93    478988
+
+03-27 03:44 root         INFO     784s - loss: 0.1108 - acc: 0.9151 - val_loss: 0.2286 - val_acc: 0.9243
+
+03-27 03:44 root         INFO     Epoch 88/100
+03-27 03:55 root         INFO     
+
+03-27 03:55 root         INFO     05: min norm 1.1953 max norm 117.6231
+03-27 03:55 root         INFO     07: min norm 44.3963 max norm 44.4200
+03-27 03:55 root         INFO     
+
+03-27 03:55 root         INFO     Epoch 00087: val_loss did not improve
+03-27 03:57 root         INFO     
+Confusion matrix
+03-27 03:57 root         INFO     [[300888  58327]
+ [   648 119125]]
+03-27 03:57 root         INFO     
+Classification report
+03-27 03:57 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.84      0.91    359215
+          1       0.67      0.99      0.80    119773
+
+avg / total       0.92      0.88      0.88    478988
+
+03-27 03:57 root         INFO     776s - loss: 0.1146 - acc: 0.9126 - val_loss: 0.5314 - val_acc: 0.8769
+
+03-27 03:57 root         INFO     Epoch 89/100
+03-27 04:08 root         INFO     
+
+03-27 04:08 root         INFO     05: min norm 1.1948 max norm 118.8566
+03-27 04:08 root         INFO     07: min norm 44.4690 max norm 44.4943
+03-27 04:08 root         INFO     
+
+03-27 04:08 root         INFO     Epoch 00088: val_loss did not improve
+03-27 04:10 root         INFO     
+Confusion matrix
+03-27 04:10 root         INFO     [[282450  76765]
+ [   621 119152]]
+03-27 04:10 root         INFO     
+Classification report
+03-27 04:10 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.79      0.88    359215
+          1       0.61      0.99      0.75    119773
+
+avg / total       0.90      0.84      0.85    478988
+
+03-27 04:10 root         INFO     780s - loss: 0.1108 - acc: 0.9149 - val_loss: 0.6261 - val_acc: 0.8384
+
+03-27 04:10 root         INFO     Epoch 90/100
+03-27 04:21 root         INFO     
+
+03-27 04:21 root         INFO     05: min norm 1.1943 max norm 120.0076
+03-27 04:21 root         INFO     07: min norm 44.5122 max norm 44.5373
+03-27 04:21 root         INFO     
+
+03-27 04:21 root         INFO     Epoch 00089: val_loss did not improve
+03-27 04:23 root         INFO     
+Confusion matrix
+03-27 04:23 root         INFO     [[315047  44168]
+ [   248 119525]]
+03-27 04:23 root         INFO     
+Classification report
+03-27 04:23 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.88      0.93    359215
+          1       0.73      1.00      0.84    119773
+
+avg / total       0.93      0.91      0.91    478988
+
+03-27 04:23 root         INFO     781s - loss: 0.1137 - acc: 0.9131 - val_loss: 0.2785 - val_acc: 0.9073
+
+03-27 04:23 root         INFO     Epoch 91/100
+03-27 04:34 root         INFO     
+
+03-27 04:34 root         INFO     05: min norm 1.1938 max norm 121.3434
+03-27 04:34 root         INFO     07: min norm 44.4986 max norm 44.5247
+03-27 04:34 root         INFO     
+
+03-27 04:34 root         INFO     Epoch 00090: val_loss did not improve
+03-27 04:36 root         INFO     
+Confusion matrix
+03-27 04:36 root         INFO     [[324580  34635]
+ [   119 119654]]
+03-27 04:36 root         INFO     
+Classification report
+03-27 04:36 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.90      0.95    359215
+          1       0.78      1.00      0.87    119773
+
+avg / total       0.94      0.93      0.93    478988
+
+03-27 04:36 root         INFO     779s - loss: 0.1170 - acc: 0.9117 - val_loss: 0.2185 - val_acc: 0.9274
+
+03-27 04:36 root         INFO     Epoch 92/100
+03-27 04:47 root         INFO     
+
+03-27 04:47 root         INFO     05: min norm 1.1932 max norm 122.5359
+03-27 04:47 root         INFO     07: min norm 44.4975 max norm 44.5229
+03-27 04:47 root         INFO     
+
+03-27 04:47 root         INFO     Epoch 00091: val_loss did not improve
+03-27 04:49 root         INFO     
+Confusion matrix
+03-27 04:49 root         INFO     [[325029  34186]
+ [   731 119042]]
+03-27 04:49 root         INFO     
+Classification report
+03-27 04:49 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.90      0.95    359215
+          1       0.78      0.99      0.87    119773
+
+avg / total       0.94      0.93      0.93    478988
+
+03-27 04:49 root         INFO     779s - loss: 0.1115 - acc: 0.9154 - val_loss: 0.2110 - val_acc: 0.9271
+
+03-27 04:49 root         INFO     Epoch 93/100
+03-27 05:00 root         INFO     
+
+03-27 05:00 root         INFO     05: min norm 1.1927 max norm 123.7613
+03-27 05:00 root         INFO     07: min norm 44.4348 max norm 44.4598
+03-27 05:00 root         INFO     
+
+03-27 05:00 root         INFO     Epoch 00092: val_loss did not improve
+03-27 05:02 root         INFO     
+Confusion matrix
+03-27 05:02 root         INFO     [[315491  43724]
+ [   580 119193]]
+03-27 05:02 root         INFO     
+Classification report
+03-27 05:02 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.88      0.93    359215
+          1       0.73      1.00      0.84    119773
+
+avg / total       0.93      0.91      0.91    478988
+
+03-27 05:02 root         INFO     780s - loss: 0.1178 - acc: 0.9121 - val_loss: 0.3644 - val_acc: 0.9075
+
+03-27 05:02 root         INFO     Epoch 94/100
+03-27 05:13 root         INFO     
+
+03-27 05:13 root         INFO     05: min norm 1.1922 max norm 125.0200
+03-27 05:13 root         INFO     07: min norm 44.4366 max norm 44.4614
+03-27 05:13 root         INFO     
+
+03-27 05:13 root         INFO     Epoch 00093: val_loss did not improve
+03-27 05:15 root         INFO     
+Confusion matrix
+03-27 05:15 root         INFO     [[323321  35894]
+ [   514 119259]]
+03-27 05:15 root         INFO     
+Classification report
+03-27 05:15 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.90      0.95    359215
+          1       0.77      1.00      0.87    119773
+
+avg / total       0.94      0.92      0.93    478988
+
+03-27 05:15 root         INFO     778s - loss: 0.1147 - acc: 0.9137 - val_loss: 0.2199 - val_acc: 0.9240
+
+03-27 05:15 root         INFO     Epoch 95/100
+03-27 05:26 root         INFO     
+
+03-27 05:26 root         INFO     05: min norm 1.1917 max norm 126.3413
+03-27 05:26 root         INFO     07: min norm 44.4061 max norm 44.4324
+03-27 05:26 root         INFO     
+
+03-27 05:26 root         INFO     Epoch 00094: val_loss did not improve
+03-27 05:28 root         INFO     
+Confusion matrix
+03-27 05:28 root         INFO     [[317969  41246]
+ [   320 119453]]
+03-27 05:28 root         INFO     
+Classification report
+03-27 05:28 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.89      0.94    359215
+          1       0.74      1.00      0.85    119773
+
+avg / total       0.94      0.91      0.92    478988
+
+03-27 05:28 root         INFO     779s - loss: 0.1170 - acc: 0.9124 - val_loss: 0.2695 - val_acc: 0.9132
+
+03-27 05:28 root         INFO     Epoch 96/100
+03-27 05:39 root         INFO     
+
+03-27 05:39 root         INFO     05: min norm 1.1912 max norm 127.7099
+03-27 05:39 root         INFO     07: min norm 44.4715 max norm 44.4989
+03-27 05:39 root         INFO     
+
+03-27 05:39 root         INFO     Epoch 00095: val_loss did not improve
+03-27 05:41 root         INFO     
+Confusion matrix
+03-27 05:41 root         INFO     [[327125  32090]
+ [   393 119380]]
+03-27 05:41 root         INFO     
+Classification report
+03-27 05:41 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.91      0.95    359215
+          1       0.79      1.00      0.88    119773
+
+avg / total       0.95      0.93      0.93    478988
+
+03-27 05:41 root         INFO     778s - loss: 0.1096 - acc: 0.9165 - val_loss: 0.2100 - val_acc: 0.9322
+
+03-27 05:41 root         INFO     Epoch 97/100
+03-27 05:52 root         INFO     
+
+03-27 05:52 root         INFO     05: min norm 1.1907 max norm 129.0743
+03-27 05:52 root         INFO     07: min norm 44.4283 max norm 44.4552
+03-27 05:52 root         INFO     
+
+03-27 05:52 root         INFO     Epoch 00096: val_loss did not improve
+03-27 05:54 root         INFO     
+Confusion matrix
+03-27 05:54 root         INFO     [[316128  43087]
+ [   553 119220]]
+03-27 05:54 root         INFO     
+Classification report
+03-27 05:54 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.88      0.94    359215
+          1       0.73      1.00      0.85    119773
+
+avg / total       0.93      0.91      0.91    478988
+
+03-27 05:54 root         INFO     784s - loss: 0.1184 - acc: 0.9127 - val_loss: 0.2677 - val_acc: 0.9089
+
+03-27 05:54 root         INFO     Epoch 98/100
+03-27 06:05 root         INFO     
+
+03-27 06:05 root         INFO     05: min norm 1.1902 max norm 130.3299
+03-27 06:05 root         INFO     07: min norm 44.4728 max norm 44.4993
+03-27 06:05 root         INFO     
+
+03-27 06:05 root         INFO     Epoch 00097: val_loss did not improve
+03-27 06:07 root         INFO     
+Confusion matrix
+03-27 06:07 root         INFO     [[321663  37552]
+ [   179 119594]]
+03-27 06:07 root         INFO     
+Classification report
+03-27 06:07 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.90      0.94    359215
+          1       0.76      1.00      0.86    119773
+
+avg / total       0.94      0.92      0.92    478988
+
+03-27 06:07 root         INFO     777s - loss: 0.1115 - acc: 0.9157 - val_loss: 0.2339 - val_acc: 0.9212
+
+03-27 06:07 root         INFO     Epoch 99/100
+03-27 06:18 root         INFO     
+
+03-27 06:18 root         INFO     05: min norm 1.1897 max norm 131.3771
+03-27 06:18 root         INFO     07: min norm 44.4433 max norm 44.4706
+03-27 06:18 root         INFO     
+
+03-27 06:18 root         INFO     Epoch 00098: val_loss did not improve
+03-27 06:20 root         INFO     
+Confusion matrix
+03-27 06:20 root         INFO     [[331169  28046]
+ [   152 119621]]
+03-27 06:20 root         INFO     
+Classification report
+03-27 06:20 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.92      0.96    359215
+          1       0.81      1.00      0.89    119773
+
+avg / total       0.95      0.94      0.94    478988
+
+03-27 06:20 root         INFO     781s - loss: 0.1148 - acc: 0.9126 - val_loss: 0.1706 - val_acc: 0.9411
+
+03-27 06:20 root         INFO     Epoch 100/100
+03-27 06:31 root         INFO     
+
+03-27 06:31 root         INFO     05: min norm 1.1892 max norm 133.0371
+03-27 06:31 root         INFO     07: min norm 44.3489 max norm 44.3772
+03-27 06:31 root         INFO     
+
+03-27 06:31 root         INFO     Epoch 00099: val_loss did not improve
+03-27 06:33 root         INFO     
+Confusion matrix
+03-27 06:33 root         INFO     [[310530  48685]
+ [   120 119653]]
+03-27 06:33 root         INFO     
+Classification report
+03-27 06:33 root         INFO                  precision    recall  f1-score   support
+
+          0       1.00      0.86      0.93    359215
+          1       0.71      1.00      0.83    119773
+
+avg / total       0.93      0.90      0.90    478988
+
+03-27 06:33 root         INFO     777s - loss: 0.1171 - acc: 0.9120 - val_loss: 0.3190 - val_acc: 0.8981
+
+03-27 06:33 root         WARNING  <modeling.utils.LoggerWriter object at 0x7f8c978ae240>
+03-27 06:33 root         INFO     <modeling.utils.LoggerWriter object at 0x7f8c978ae240>
+03-27 06:33 root         WARNING  <modeling.utils.LoggerWriter object at 0x7f8c978ae240>
+03-27 06:33 root         WARNING  <modeling.utils.LoggerWriter object at 0x7f8c978ae240>
+03-27 06:33 root         INFO     <modeling.utils.LoggerWriter object at 0x7f8c978ae240>
+03-27 06:33 root         WARNING  <modeling.utils.LoggerWriter object at 0x7f8c978ae240>
