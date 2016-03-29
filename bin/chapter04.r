@@ -57,13 +57,16 @@ preprocess_dictionaries <- function(df) {
 plot_brands <- function(df) {
   df_brands <- df[grepl("Brand|Cities", df$dataset), ]
   brands <- ggplot(subset(df_brands, model=="ConvNet"), aes(x=p1, fill=dataset))
-  brands + geom_histogram(aes(y=..density..),
+  brands <- brands + geom_histogram(aes(y=..density..),
     position=position_dodge(width=0.075),
     binwidth=1/10,
     alpha=0.75)
+  pdf("figures/brands-convnet.pdf")
+  print(brands)
+  dev.off()
 }
 
-plot_dictionaries <- function(df) {
+plot_languages <- function(df) {
   plot_datasets <- c("German", "Italian", "Swedish", "French")
   df_plot <- filter(df, dataset %in% plot_datasets)
   plots <- list()
@@ -81,15 +84,15 @@ plot_dictionaries <- function(df) {
     p <- p + coord_cartesian(ylim=c(0, 10))
     plots[[m]] <- p
   }
-  # Open PDF device.
-  pdf("
+  pdf("figures/languages-convnet-vs-lm.pdf")
   do.call(grid.arrange, c(plots, list(ncol=1)))
-  # Close PDF device.
+  dev.off()
 }
 
 run <- function(csv_file="models/artificial_errors/error_analysis.csv") {
   df <- load_data(csv_file)
   df <- preprocess_data(df)
-  brands <- plot_brands(df)
-  list(df=df, brands=brands)
+  plot_brands(df)
+  plot_languages(df)
+  df
 }
