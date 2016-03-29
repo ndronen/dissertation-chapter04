@@ -13,6 +13,8 @@ import pandas as pd
 from spelling.baseline import CharacterLanguageModel, LanguageModelClassifier
 from spelling.utils import build_progressbar as build_pbar
 
+from sklearn.metrics import accuracy_score
+
 def load_config(model_dir):
     return json.load(open(model_dir + '/config.json'))
 
@@ -212,3 +214,63 @@ def convert(probas):
         'p1': p1,
         'dataset': name
         })
+
+def build_accuracy_data_frame(df):
+    datasets = df.dataset.unique()
+    models = df.model.unique()
+
+    results = []
+
+    for ds in datasets:
+        for model in models:
+            df_tmp = df[(df.dataset == ds) & (df.model == model)]
+            targets = [0] * len(df_tmp)
+            accuracy = accuracy_score(
+                    targets,
+                    (df_tmp.p1 > 0.5).astype(int))
+            results.append({
+                'dataset': ds,
+                'model': model,
+                'Accuracy': accuracy
+                })
+
+
+    results_df = pd.DataFrame(data=results)
+
+    count_map = df.dataset.value_counts().to_dict()
+    results_df['N'] = results_df.dataset.apply(
+            lambda d: count_map[d])
+
+    dataset_map = {
+            'br': 'Breton',
+            'ca': 'Catalan',
+            'cs': 'Czech',
+            'cy': 'Welsh',
+            'de': 'German',
+            'es': 'Spanish',
+            'et': 'Estonian',
+            'fr': 'French',
+            'ga': 'Irish (Gaeilge)',
+            'hsb': 'Upper Sorbian',
+            'is': 'Icelandic',
+            'it': 'Italian',
+            'nl': 'Dutch',
+            'sv': 'Swedish'
+            }
+            
+    # Only include datasets in the map.
+    results_df = results_df[results_df.dataset.isin(dataset_map.keys())]
+
+    # And rename them for presentation.
+    results_df.dataset = results_df.dataset.apply(
+            lambda s: dataset_map[s] if s in dataset_map else s)
+
+    # Upper case the column names.
+    results_df.columns = [c.title() for c in results_df.columns]
+
+    results_df['Language'] = results_df.Dataset
+    del results_df['Dataset']
+
+    results_df = results_df.sort_values(['Language', 'Model'])
+
+    return results_df[['Dataset', 'N', 'Model', 'Accuracy']]
