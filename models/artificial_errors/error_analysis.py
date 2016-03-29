@@ -133,20 +133,18 @@ def run(model_dir='models/artificial_errors/d1e4e4c6f36311e5aa8efcaa149e39ea', *
         probas['word'] = corpus_probas[2]
         return probas
 
-    #aspell_probas = predict_proba(df.word.tolist())
+    aspell_probas = predict_proba(df.word.tolist())
 
     probas = collections.defaultdict(dict)
-    """
+
     probas['Aspell']['ConvNet'] = aspell_probas[0]
     probas['Aspell']['LM'] = aspell_probas[1]
     probas['Aspell']['word'] = df.word.tolist()
     probas['Aspell']['target'] = df.binary_target.tolist()
-    """
 
     corpora = glob("data/brand*.txt")
     corpora.append("data/north-american-cities.txt")
 
-    """
     for corpus_path in corpora:
         corpus_name = corpus_path.replace('data/', '').replace('.txt', '')
         try:
@@ -155,17 +153,13 @@ def run(model_dir='models/artificial_errors/d1e4e4c6f36311e5aa8efcaa149e39ea', *
             corpus_probas = predict_proba_corpus(corpus_path,
                     encoding='latin1')
         probas[corpus_name] = corpus_probas
-    """
 
     english_csv = os.environ['HOME'] + "/proj/spelling/data/aspell-dict.csv.gz"
     english_df = pd.read_csv(english_csv, sep='\t', encoding='utf8')
     english_vocab = set(english_df.word.tolist())
     dict_csvs = glob(os.environ['HOME'] + "/proj/spelling/data/aspell-dict*.csv")
 
-    print(dict_csvs)
-
     for dict_csv in dict_csvs:
-        print('reading %s' % dict_csv)
         dict_df = pd.read_csv(dict_csv, sep='\t', encoding='utf8')
         dict_vocab = dict_df.word.tolist()
         non_english_vocab = set(dict_vocab).difference(english_vocab)
@@ -176,4 +170,45 @@ def run(model_dir='models/artificial_errors/d1e4e4c6f36311e5aa8efcaa149e39ea', *
 
         probas[dict_name] =  dict_probas
 
-    return probas
+    return convert(probas)
+
+def convert(probas):
+    name = []
+    p0 = []
+    p1 = []
+    model = []
+    word = []
+    target = []
+    for dataset in probas.keys():
+        print(dataset)
+        for model_name in ['ConvNet', 'LM']:
+            print(model_name)
+            probs = probas[dataset][model_name]
+            p0.extend(probs[:, 0])
+            p1.extend(probs[:, 1])
+            name.extend([dataset] * len(probs))
+            model.extend([model_name] * len(probs))
+            word.extend(probas[dataset]['word'])
+            if 'target' in probas[dataset]:
+                target.extend(probas[dataset]['target'])
+            else:
+                target.extend([None] * len(probs))
+
+    # Normalize the language model model probabilities.  The ConvNet
+    # model's probabilities are already normalized; for them this
+    # is no-op.
+    p0 = np.array(p0)
+    p1 = np.array(p1)
+    p0norm = p0/(p0 + p1)
+    p1norm = p1/(p0 + p1)
+    p0 = p0norm
+    p1 = p1norm
+
+    return pd.DataFrame(data={
+        'model': model,
+        'word': word,
+        'target': target,
+        'p0': p0,
+        'p1': p1,
+        'dataset': name
+        })
