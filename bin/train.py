@@ -5,18 +5,17 @@ from __future__ import print_function
 
 import os
 import sys
-
-sys.path.append('.')
-
+import logging
+import modeling.parser
 from modeling.utils import (
         build_model_id,
         build_model_path,
         setup_model_dir,
         load_model_json,
         setup_logging, 
+        callable_print,
         save_model_info,
         ModelConfig)
-import modeling.parser
 
 def main(args):
     model_id = build_model_id(args)
@@ -25,8 +24,26 @@ def main(args):
 
     setup_model_dir(args, model_path)
 
-    json_cfg = load_model_json(args, x_train=None, n_classes=None)
+    if 'background' in args.mode:
+        callback_logger = logging.info
+        sys.stdout, sys.stderr = setup_logging(
+            os.path.join(model_path, 'model.log'))
+        verbose = 0
+    else:
+        callback_logger = callable_print
+        verbose = 1
+
+    json_cfg = load_model_json(args)
+    json_cfg['model_path'] = model_path
+    json_cfg['stdout'] = sys.stdout
+    json_cfg['stderr'] = sys.stderr
+    json_cfg['logger'] = callback_logger
+    json_cfg['verbose'] = verbose
+
     config = ModelConfig(**json_cfg)
+
+    if 'persistent' in args.mode:
+        save_model_info(config, model_path)
 
     sys.path.append(args.model_dir)
     import model
