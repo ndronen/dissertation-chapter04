@@ -55,12 +55,19 @@ preprocess_dictionaries <- function(df) {
 }
 
 plot_brands <- function(df) {
-  df_brands <- df[grepl("Brand|Cities", df$dataset), ]
-  brands <- ggplot(subset(df_brands, model=="ConvNet"), aes(x=p1, fill=dataset))
-  brands <- brands + geom_histogram(aes(y=..density..),
-    position=position_dodge(width=0.075),
-    binwidth=1/10,
-    alpha=0.75)
+  df_brands <- df[grepl("Brand", df$dataset), ]
+  df_brands$Origin <- df_brands$dataset
+  df_brands$Origin <- str_replace(df_brands$Origin, " Brands", "")
+  #brands <- ggplot(subset(df_brands, model=="ConvNet"), aes(x=p1, fill=Origin), alpha=0.5)
+  brands <- ggplot(subset(df_brands, model=="ConvNet"), aes(x=p1, fill=Origin))
+  #brands <- brands + geom_histogram(aes(y=..density..),
+  #brands <- brands + geom_histogram(aes(y=..density..),
+  #  position=position_dodge(width=0.075),
+  #  binwidth=1/10,
+  #  alpha=0.75)
+  brands <- brands + geom_density(alpha=0.5)
+  brands <- brands + labs(x="P(English)")
+  brands <- brands + coord_cartesian(xlim=c(0, 1))
   pdf("figures/brands-convnet.pdf")
   print(brands)
   dev.off()
@@ -80,7 +87,7 @@ plot_languages <- function(df) {
     df_model <- filter(df_plot, model == m)
     p <- ggplot(data=df_model, aes(x=p1, fill=Language), alpha=0.5)
     p <- p + geom_density(alpha=0.5)
-    p <- p + labs(title=mlab, x="Probability word is in English")
+    p <- p + labs(title=mlab, x="P(English)")
     p <- p + coord_cartesian(ylim=c(0, 10))
     plots[[m]] <- p
   }
