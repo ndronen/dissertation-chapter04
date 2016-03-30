@@ -58,6 +58,7 @@ plot_brands <- function(df) {
   df_brands <- df[grepl("Brand", df$dataset), ]
   df_brands$Origin <- df_brands$dataset
   df_brands$Origin <- str_replace(df_brands$Origin, " Brands", "")
+  df_brands <- filter(df_brands, known == "False")
   brands <- ggplot(subset(df_brands, model=="ConvNet"), aes(x=p1, fill=Origin))
   brands <- brands + geom_density(alpha=0.5)
   brands <- brands + labs(x="P(English)")
