@@ -58,13 +58,7 @@ plot_brands <- function(df) {
   df_brands <- df[grepl("Brand", df$dataset), ]
   df_brands$Origin <- df_brands$dataset
   df_brands$Origin <- str_replace(df_brands$Origin, " Brands", "")
-  #brands <- ggplot(subset(df_brands, model=="ConvNet"), aes(x=p1, fill=Origin), alpha=0.5)
   brands <- ggplot(subset(df_brands, model=="ConvNet"), aes(x=p1, fill=Origin))
-  #brands <- brands + geom_histogram(aes(y=..density..),
-  #brands <- brands + geom_histogram(aes(y=..density..),
-  #  position=position_dodge(width=0.075),
-  #  binwidth=1/10,
-  #  alpha=0.75)
   brands <- brands + geom_density(alpha=0.5)
   brands <- brands + labs(x="P(English)")
   brands <- brands + coord_cartesian(xlim=c(0, 1))
